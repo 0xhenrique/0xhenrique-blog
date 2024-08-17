@@ -1,37 +1,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>0xhenrique</title>
-	<link>http://localhost:1313/tags/portugal/</link>
+	<link>https://example.org/tags/portugal/</link>
 	<description>Recent content in Portugal on 0xhenrique</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Sat, 17 Aug 2024 07:44:45 +0100</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/portugal/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://example.org/tags/portugal/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Nazare Beach</title>
-		<link>http://localhost:1313/nazare-beach/</link>
+		<link>https://example.org/nazare-beach/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:45 +0100</pubDate>
 		
-		<guid>http://localhost:1313/nazare-beach/</guid>
-		<description>&lt;p&gt;I visited Nazaré Beach last year (2023). Really beautiful place. Shame on me for not taking my camera with me that day. I&amp;rsquo;m not a fan of smartphone cameras to be honest.
-Here are some photos I took that day.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ATjnpyl.jpeg&#34; alt=&#34;1st photo&#34;&gt;
-According to Wikipedia, Nazaré Beach is a neighborhood, on the seafront, of one of the most traditional Portuguese fishing villages, Nazaré, having the most popular bathing beach on the Portuguese west coast, where you can still find, on the sand, some women dressed in the traditional costume of seven skirts, taking care of the fish that dries in the sun, lined up on stakes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/GwZIh3p.jpeg&#34; alt=&#34;2nd photo&#34;&gt;
-&lt;img src=&#34;https://i.imgur.com/hxY0rcS.jpeg&#34; alt=&#34;3rd photo&#34;&gt;
+		<guid>https://example.org/nazare-beach/</guid>
+		<description>&lt;p&gt;I visited Nazaré Beach last year (2023). Such a lovely place.
+Shame on me for not taking my camera with me that day. I&amp;rsquo;m not a fan of smartphone cameras to be honest. Still, I couldn&amp;rsquo;t let the opportunity pass. Here are some photos I took that day.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ATjnpyl.jpeg&#34; alt=&#34;1st photo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;According to Wikipedia, Nazaré is one of the most traditional Portuguese fishing villages, having the most popular bathing beach on the Portuguese west coast, where you can still find, on the sand, some women dressed in the traditional costume of seven skirts, taking care of the fish that dries in the sun, lined up on stakes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/GwZIh3p.jpeg&#34; alt=&#34;2nd photo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I plan to go back there in the winter, but this time I will remember to take my camera with me. I have an 18-55 and a 200mm, but I believe I will get better photos with the 200mm, especially in the higher parts. Not to mention that I will be able to aim further without losing too much sharpness.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/hxY0rcS.jpeg&#34; alt=&#34;3rd photo&#34;&gt;
 &lt;img src=&#34;https://i.imgur.com/8uRNHtF.jpeg&#34; alt=&#34;4th photo&#34;&gt;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
-		<title>Monogatari</title>
-		<link>http://localhost:1313/monogatari/</link>
+		<title>Monogatari - Text Editor in Python</title>
+		<link>https://example.org/monogatari/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:33 +0100</pubDate>
 		
-		<guid>http://localhost:1313/monogatari/</guid>
+		<guid>https://example.org/monogatari/</guid>
 		<description>&lt;h1 id=&#34;monogatari---text-editorhttpsgithubcomhenrique-marques-vsoftmonogatari&#34;&gt;&lt;a href=&#34;https://github.com/henrique-marques-vsoft/monogatari&#34;&gt;MONOGATARI - Text Editor&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/shinobu.gif&#34; alt=&#34;monogatari-movie scene shinobu kokorowatari&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Monogatari is a text editor built with Python using the Tkinter GUI library.&lt;/p&gt;
@@ -72,11 +73,11 @@ $ git push
 	</item>
 	
 	<item>
-		<title>Lum</title>
-		<link>http://localhost:1313/lum/</link>
+		<title>Lum - Linux Ubiquitous Marker</title>
+		<link>https://example.org/lum/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:26 +0100</pubDate>
 		
-		<guid>http://localhost:1313/lum/</guid>
+		<guid>https://example.org/lum/</guid>
 		<description>&lt;p&gt;Link: &lt;a href=&#34;https://github.com/henrique-marques-vsoft/lum&#34;&gt;https://github.com/henrique-marques-vsoft/lum&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
 The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
@@ -90,10 +91,10 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 	
 	<item>
 		<title>Internet Lurk Compilation #1</title>
-		<link>http://localhost:1313/internet-lurk-compilation/</link>
+		<link>https://example.org/internet-lurk-compilation/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:17 +0100</pubDate>
 		
-		<guid>http://localhost:1313/internet-lurk-compilation/</guid>
+		<guid>https://example.org/internet-lurk-compilation/</guid>
 		<description>&lt;h2 id=&#34;general-findings&#34;&gt;General Findings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Pure gold from the 90s: &lt;a href=&#34;https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation&#34;&gt;https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation&lt;/a&gt;&lt;/li&gt;
@@ -103,7 +104,14 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 &lt;li&gt;Appearances of MIT in Anime: &lt;a href=&#34;https://anime.mit.edu/resources/mit_in_anime&#34;&gt;https://anime.mit.edu/resources/mit_in_anime&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;How Emacs got into Tron: Legacy: &lt;a href=&#34;https://boingboing.net/2011/04/06/how-emacs-got-into-t.html&#34;&gt;https://boingboing.net/2011/04/06/how-emacs-got-into-t.html&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The Jargon File: &lt;a href=&#34;http://www.catb.org/jargon/&#34;&gt;http://www.catb.org/jargon/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;neocities&#34;&gt;Neocities&lt;/h2&gt;
+&lt;ul&gt;
 &lt;li&gt;Lainzine (Lain Magazine): &lt;a href=&#34;https://lainzine.org/&#34;&gt;https://lainzine.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;About Software Privacy and other topics: &lt;a href=&#34;https://digdeeper.neocities.org/&#34;&gt;https://digdeeper.neocities.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reminds of Fauux: &lt;a href=&#34;https://blackwings.neocities.org/&#34;&gt;https://blackwings.neocities.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fauux: &lt;a href=&#34;https://fauux.neocities.org/&#34;&gt;https://fauux.neocities.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tatsumoto&amp;rsquo;s guide to Nihongo: &lt;a href=&#34;https://tatsumoto.neocities.org/&#34;&gt;https://tatsumoto.neocities.org/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;internet-archive-findings&#34;&gt;Internet Archive Findings&lt;/h2&gt;
 &lt;ul&gt;
@@ -116,28 +124,55 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 &lt;ul&gt;
 &lt;li&gt;A &lt;del&gt;modern&lt;/del&gt; Javascript approach to SICP: &lt;a href=&#34;https://sicp.sourceacademy.org/&#34;&gt;https://sicp.sourceacademy.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;A blog by Sam Greydanus: &lt;a href=&#34;https://greydanus.github.io/&#34;&gt;https://greydanus.github.io/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;About Software Privacy and other topics: &lt;a href=&#34;https://digdeeper.neocities.org/&#34;&gt;https://digdeeper.neocities.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Xah Lee (he&amp;rsquo;s also one of the minds behind ergoemacs and xah-fly-keys): &lt;a href=&#34;https://xahlee.info/&#34;&gt;https://xahlee.info/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Sasha Chua blog: &lt;a href=&#34;https://sachachua.com/blog/&#34;&gt;https://sachachua.com/blog/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lunduke Journal: &lt;a href=&#34;https://lunduke.substack.com/&#34;&gt;https://lunduke.substack.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;I need to make it clear that I do not support, much less have contact with, any of the creators of the websites listed here.&lt;/strong&gt;
-&lt;strong&gt;The reason I list them is almost always because of a specific article or page that I find interesting. It doesn&amp;rsquo;t mean that I support or am against what is said on other pages. I also don&amp;rsquo;t have time to analyze every post on every website.&lt;/strong&gt;
-&lt;strong&gt;If you find a broken link or a website that shares things that are clearly illegal, please let me know by email so I can remove it: &lt;a href=&#34;mailto:hm2030master@proton.me&#34;&gt;hm2030master@proton.me&lt;/a&gt;&lt;/strong&gt;
-&lt;strong&gt;Also, if you don&amp;rsquo;t want me to list your website here, feel free to contact me via email so I can remove it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you find a broken link or a website that shares things that are clearly illegal, please let me know by email so I can remove it: &lt;a href=&#34;mailto:hm2030master@proton.me&#34;&gt;hm2030master@proton.me&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Also, if you don&amp;rsquo;t want me to list your website here, feel free to contact me via email so I can remove it.&lt;/strong&gt;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>About</title>
-		<link>http://localhost:1313/about/</link>
+		<link>https://example.org/about/</link>
 		<pubDate>Sat, 17 Aug 2024 07:42:34 +0100</pubDate>
 		
-		<guid>http://localhost:1313/about/</guid>
+		<guid>https://example.org/about/</guid>
 		<description>&lt;h1 id=&#34;whois&#34;&gt;whois&lt;/h1&gt;
 &lt;p&gt;Hello there! You can call me Henrique.
-The main purpose of this website is to share some of my thoughts and projects.
+The main purpose of this website is to share some interesting things I find on the world wide web and the projects of mine.
 Feel free to reach out on &lt;a href=&#34;https://github.com/henrique-marques-vsoft&#34;&gt;Github&lt;/a&gt; or &lt;a href=&#34;https://www.linkedin.com/in/all123all/&#34;&gt;LinkedIn&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;my-setup&#34;&gt;My setup&lt;/h2&gt;
+&lt;p&gt;Nothing fancy to be honest. Since I spend most of my time inside Emacs, I don&amp;rsquo;t really &lt;em&gt;rice&lt;/em&gt; my computer.
+I&amp;rsquo;ve been through that phase though. Remaping keybindings, customising themes, colourschemes etc.
+Today things are simpler for me. Just my Emacs and Vim config and that&amp;rsquo;s it. Even the i3 window manager I try to stick to the defaults.&lt;/p&gt;
+&lt;p&gt;Here are some of my configs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Laptop: Thinkpad T480&lt;/li&gt;
+&lt;li&gt;OS: GNU Guix and NixOS&lt;/li&gt;
+&lt;li&gt;Shell: bash&lt;/li&gt;
+&lt;li&gt;Resolution: 1920x1080 (1 monitor is enough for me)&lt;/li&gt;
+&lt;li&gt;WM: i3wm&lt;/li&gt;
+&lt;li&gt;Terminal: kitty&lt;/li&gt;
+&lt;li&gt;CPU: Intel i5-8350U (8) @ 3.600GHz&lt;/li&gt;
+&lt;li&gt;GPU: 😕&lt;/li&gt;
+&lt;li&gt;RAM: 24Gb&lt;/li&gt;
+&lt;li&gt;Text editor: Emacs (29)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Dotfiles&lt;/strong&gt; [still need to add Guix]: &lt;a href=&#34;https://github.com/henrique-marques-vsoft/dotfiles/&#34;&gt;https://github.com/henrique-marques-vsoft/dotfiles/&lt;/a&gt;&lt;br&gt;
+&lt;strong&gt;Emacs&lt;/strong&gt;: &lt;a href=&#34;https://github.com/henrique-marques-vsoft/pachemacs&#34;&gt;https://github.com/henrique-marques-vsoft/pachemacs&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;keyboards&#34;&gt;Keyboards&lt;/h2&gt;
+&lt;h3 id=&#34;the-charybdis-by-bastard-keyboards&#34;&gt;The Charybdis by Bastard Keyboards&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/vqbSpXX.jpeg&#34; alt=&#34;2nd photo&#34;&gt;
+Right now I&amp;rsquo;m using the Charybdis. It simply feels &amp;ldquo;correct&amp;rdquo; to type with this.&lt;br&gt;
+The only &lt;em&gt;drawback&lt;/em&gt; from this keyboard is the price, but I don&amp;rsquo;t think you will find a dactyl for a cheap price.&lt;br&gt;
+As far as I know, there&amp;rsquo;s no company mass producing that type of keyboard.&lt;br&gt;
+But at the end I think it&amp;rsquo;s worth it, at least for me it is.&lt;/p&gt;
+&lt;h3 id=&#34;the-sofle-v1-by-mechboards-uk&#34;&gt;The Sofle V1 by Mechboards UK&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/O4zYPni.jpeg&#34; alt=&#34;1st photo&#34;&gt;
+The other one I have (but don&amp;rsquo;t use very much anymore) is the Sofle V1 that I bought from Mechboards UK.
+It was very nice to type on a &lt;em&gt;low profile&lt;/em&gt; keyboard. It&amp;rsquo;s not so expansive as the Charybdis.&lt;/p&gt;
 </description>
 	</item>
 	
