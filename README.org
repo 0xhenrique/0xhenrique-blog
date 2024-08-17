@@ -1,0 +1,5 @@
+* 0xhenrique
+
+=hugo server= to run local server;
+=hugo= to build everything;
+=hugo new new-post.md= to create a new post;
