@@ -1,5 +1,5 @@
 +++
-title = 'Lum'
+title = 'Lum - Linux Ubiquitous Marker'
 date = 2024-08-17T07:44:26+01:00
 tags = ['projects', 'programming', 'rust', 'linux']
 +++

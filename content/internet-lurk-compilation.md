@@ -12,7 +12,13 @@ tags = ['archive', 'lurk', 'blogs']
 - Appearances of MIT in Anime: https://anime.mit.edu/resources/mit_in_anime
 - How Emacs got into Tron: Legacy: https://boingboing.net/2011/04/06/how-emacs-got-into-t.html
 - The Jargon File: http://www.catb.org/jargon/
+
+## Neocities
 - Lainzine (Lain Magazine): https://lainzine.org/
+- About Software Privacy and other topics: https://digdeeper.neocities.org/
+- Reminds of Fauux: https://blackwings.neocities.org/
+- Fauux: https://fauux.neocities.org/
+- Tatsumoto's guide to Nihongo: https://tatsumoto.neocities.org/
 
 ## Internet Archive Findings
 - Oh! PC (Jul 01 1990) [Content in Japanese]: https://archive.org/details/oh-pc-issue-127-jul-01-1990/Oh%21%20PC%20Issue%20127%20%28Jul%2001%201990%29/mode/2up
@@ -23,12 +29,10 @@ tags = ['archive', 'lurk', 'blogs']
 ## Websites I visit from time to time
 - A ~~modern~~ Javascript approach to SICP: https://sicp.sourceacademy.org/
 - A blog by Sam Greydanus: https://greydanus.github.io/
-- About Software Privacy and other topics: https://digdeeper.neocities.org/
 - Xah Lee (he's also one of the minds behind ergoemacs and xah-fly-keys): https://xahlee.info/
 - Sasha Chua blog: https://sachachua.com/blog/
 - Lunduke Journal: https://lunduke.substack.com/
 
-**I need to make it clear that I do not support, much less have contact with, any of the creators of the websites listed here.**
-**The reason I list them is almost always because of a specific article or page that I find interesting. It doesn't mean that I support or am against what is said on other pages. I also don't have time to analyze every post on every website.**
-**If you find a broken link or a website that shares things that are clearly illegal, please let me know by email so I can remove it: <hm2030master@proton.me>**
+**If you find a broken link or a website that shares things that are clearly illegal, please let me know by email so I can remove it: <hm2030master@proton.me>**.
+
 **Also, if you don't want me to list your website here, feel free to contact me via email so I can remove it.**

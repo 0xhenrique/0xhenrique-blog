@@ -1,5 +1,5 @@
 +++
-title = 'Monogatari'
+title = 'Monogatari - Text Editor in Python'
 date = 2024-08-17T07:44:33+01:00
 tags = ['projects', 'programming', 'python', 'linux', 'windows']
 +++

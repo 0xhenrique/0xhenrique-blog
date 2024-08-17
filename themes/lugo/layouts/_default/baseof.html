@@ -15,6 +15,12 @@
 	<meta charset="utf-8">
 </head>
 <body>
+<ul class="menu-list">
+<li class="menu-item"><a href="{{ .Site.BaseURL }}">λ</a></li>
+<li class="menu-item"><a href="{{ .Site.BaseURL }}/tags/projects">Projects</a></li>
+<li class="menu-item"><a href="{{ .Site.BaseURL }}/tags">Tags</a></li>
+<li class="menu-item" style="float:right"><a href="{{ .Site.BaseURL }}/about">About</a></li>
+</ul>
 {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 <main>
 <header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
@@ -28,8 +34,7 @@
 </main>
 {{ block "footer" . }}
 <footer>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
-	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+	{{- if .Param "showrss" }}<a href="/index.xml">Subscribe to my RSS feed</a>{{ end }}
 </footer>
 {{ end }}
 </body>
