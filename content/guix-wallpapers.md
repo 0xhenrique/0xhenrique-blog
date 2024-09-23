@@ -1,12 +1,13 @@
 +++
 title = 'Guix Wallpapers'
 date = 2024-09-20T20:37:15+01:00
+tags = ['guix', 'wallpaper', 'ricing']
 +++
 
 I've been using Guix for quite some time now. It's been a great experience so far!
 Here are some wallpapers I've been collecting for my Guix desktop.
 
-I think it goes without saying that Suika is the perfect candidate to be the Guix-tan.
+I think it goes without saying that Suika is the perfect candidate to be the Guix mascot .
 
 ![1st pape](https://i.imgur.com/se5Qk6P.png)
 ![2st pape](https://i.imgur.com/bYxUNO7.png)

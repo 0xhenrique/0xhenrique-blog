@@ -12,7 +12,7 @@ Some of the stuff I work on [Github](https://github.com/henrique-marques-vsoft).
 ## My setup
 Nothing fancy to be honest. Since I spend most of my time inside Emacs, I don't really _rice_ my computer.
 I've been through that phase though. Remaping keybindings, customising themes, colourschemes etc.
-Today things are simpler for me. Just my Emacs and Vim config and that's it. Even the i3 window manager I try to stick to the defaults.
+Today things are simpler for me. Just my Emacs config and that's it.
 
 Here are some of my configs:
 - Laptop: Thinkpad T480
