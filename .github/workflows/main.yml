@@ -4,7 +4,7 @@ name: Deploy to Neocities
 on:
   push:
     branches:
-      - main
+      - master
 
 concurrency: # Prevent concurrent deploys doing strange things
   group: deploy-to-neocities
@@ -12,25 +12,25 @@ concurrency: # Prevent concurrent deploys doing strange things
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     # Step 1: Check out the repository
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     # Step 2: Set up Hugo (this downloads and installs Hugo)
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: 'latest' # You can specify a specific version if needed
+        hugo-version: '0.119.0'
 
     # Step 3: Build the Hugo site
     - name: Build the Hugo site
-      run: hugo
+      run: hugo --minify
 
     # Step 4: Deploy the 'public' folder to Neocities
     - name: Deploy to Neocities
-      uses: bcomnes/deploy-to-neocities@v2
+      uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }} # Your Neocities API token stored as a secret
         cleanup: false
