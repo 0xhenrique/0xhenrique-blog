@@ -1,41 +1,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>0xhenrique</title>
-	<link>http://localhost:1313/tags/portugal/</link>
+	<link>https://0xhenrique.neocities.org/tags/portugal/</link>
 	<description>Recent content in Portugal on 0xhenrique</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Sat, 17 Aug 2024 07:44:45 +0100</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/tags/portugal/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://0xhenrique.neocities.org/tags/portugal/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Why I Chose Guix Over Nix</title>
-		<link>http://localhost:1313/why-i-chose-guix-over-nix/</link>
+		<link>https://0xhenrique.neocities.org/why-i-chose-guix-over-nix/</link>
 		<pubDate>Mon, 23 Sep 2024 04:35:07 +0100</pubDate>
 		
-		<guid>http://localhost:1313/why-i-chose-guix-over-nix/</guid>
+		<guid>https://0xhenrique.neocities.org/why-i-chose-guix-over-nix/</guid>
 		<description>&lt;p&gt;I&amp;rsquo;ve been using NixOS for quite some time, but somehow I ended up with Guix. In this article I will try to write about the reasons why I don&amp;rsquo;t use Nix anymore.&lt;/p&gt;
 &lt;h2 id=&#34;the-emacs--elisp--sicp--scheme-pipeline&#34;&gt;The Emacs &amp;gt; Elisp &amp;gt; SICP &amp;gt; Scheme pipeline&lt;/h2&gt;
-&lt;p&gt;I honestly don&amp;rsquo;t remember the first time I heard about Emacs, but I remember the first time I tried to use it I got gatekept by the Elisp magecraft.
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ouSS2fe.png&#34; alt=&#34;SICP_2hu_version&#34;&gt;
+I honestly don&amp;rsquo;t remember the first time I heard about Emacs, but I remember the first time I tried to use it I got gatekept by the Elisp magecraft.
 After that, I spent some days trying to learn some basic concepts of this ancient text editor. Thanks to &lt;a href=&#34;https://learnxinyminutes.com/docs/elisp/&#34;&gt;https://learnxinyminutes.com/docs/elisp/&lt;/a&gt; I was able to write some simple functions to make my Emacs experience smoother. To be honest, I didn&amp;rsquo;t really liked to write Lisp back then, it sucked a lot for me. Even reading simple functions was a hassle since I wasn&amp;rsquo;t used to see through all the parenthesis.
 At that time, I already knew about the &amp;lsquo;Structure and Interpretaion of Computer Programs&amp;rsquo; book, but didn&amp;rsquo;t read until then. It was only after seeing the MIT class linked below that I got hooked into computer magecraft:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-J_xL4IGhJA&#34; title=&#34;MIT Lecture on LISP&#34;&gt;&lt;img src=&#34;https://img.youtube.com/vi/-J_xL4IGhJA/0.jpg&#34; alt=&#34;Lecture 1A: Overview and Introduction to Lisp&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lecture 1A: Overview and Introduction to Lisp: &lt;a href=&#34;https://www.youtube.com/watch?v=-J_xL4IGhJA&#34;&gt;https://www.youtube.com/watch?v=-J_xL4IGhJA&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;That was when I finally decided to read the SICP and, consequently, learn Scheme.&lt;/p&gt;
-&lt;h2 id=&#34;guix-uses-scheme&#34;&gt;Guix uses Scheme&lt;/h2&gt;
-&lt;p&gt;And that alone is huge win for Guix. Configuring Nix packages was a pain in the ass. Not because you need to set everything up from scratch (that&amp;rsquo;s not even a problem), but because the language is confusing as hell and the documentation doesn&amp;rsquo;t help. It&amp;rsquo;s not a secret, everywhere you go on the internet you will find people complaining about how the Nix language is hard to grasp, but no because it is complex, just because it lacks proper documentation.
-For instance, here&amp;rsquo;s a comparison between the figlet package ported to Nix and the one ported to Guix:
-&lt;a href=&#34;https://i.imgur.com/9epJ4qs.png&#34;&gt;!Nix vs Guix&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-nix-language-and-documentation-sucks&#34;&gt;The Nix language and documentation sucks&lt;/h2&gt;
+&lt;p&gt;And that alone is huge win for Guix. Configuring Nix packages was a pain in the ass. Not because you need to set everything up from scratch (that&amp;rsquo;s not even a problem), but because the language is confusing as hell and the documentation doesn&amp;rsquo;t help. It&amp;rsquo;s not a secret, everywhere you go on the internet you will find people complaining about how the Nix language is hard to grasp, but no because it is complex, just because it lacks proper documentation. You can&amp;rsquo;t be sure to find what you&amp;rsquo;re looking for. All the information is fragmented on the internet, there is not a place where you can just find what you&amp;rsquo;re looking for.
+At the end of the day you spend more time guessing &amp;ldquo;where the information is&amp;rdquo; rather &amp;ldquo;how to do X&amp;rdquo;.
+For instance, here&amp;rsquo;s a comparison between the figlet package ported to Nix and the one ported to Guix:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/9epJ4qs.png&#34; alt=&#34;Nix vs Guix&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And no, I&amp;rsquo;m not even talking about how the Nix code is bigger than the Scheme code, that&amp;rsquo;s not really a problem. The thing is, which one is easier to read? Which one is easier to maintain? Which one is more elegant? Which one is more expressive about what it does?
+The Nix language was a mistake and I think it is the Achilles&amp;rsquo; heel of the Nix project. I can assure you that most of the people using NixOS right now don&amp;rsquo;t even know how the language works, most of the time tthey just copy and paste code that was already written by some Nix wizard and call it a day. But the moment you need to do something new you&amp;rsquo;re left in the lurch. But I have to admit, most of the Nix wizards are nice people and they will probably help you. The thing is, do you really want to depend so much on the community to get things done?&lt;/p&gt;
+&lt;p&gt;Guix solves that. It&amp;rsquo;s not like you need to learn a complex language to start with Guix, Scheme is relatively simple and most of the time the docs are everything you need to get up and running. Packaging a program for Guix isn&amp;rsquo;t hard, I plan to make another blog post to delve into that soon.&lt;/p&gt;
+&lt;h2 id=&#34;the-lisp-way-of-life&#34;&gt;The LISP way of life&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/lisp_cycles.png&#34; alt=&#34;Elegant weapons for a more&amp;hellip; civilized age&#34;&gt;&lt;/p&gt;
+&lt;p&gt;There are some reasons why some Emacs wizards stick to LISP: metaprogramming, macros, higher-order functions, recursion etc. Not only that, LISP is a crucial part of computer science history. It helps you understand why things are the way they are. It helps you understand mathematical concepts. It helps you understand functional programming. It helps you understand core concepts of programming, hence Scheme is used as the language for the SICP book.&lt;/p&gt;
+&lt;p&gt;And yes, Nix also supports abstractions, but Guix&amp;rsquo;s use of Scheme provides more powerful and general ways to define those abstractions.
+Since all the Guix configuration and packaging logic is expressed in Guile Scheme, you can deeply customise and program your system at at level.
+For instance, you can define custom operating system services, package definitions, or system configuration options entirely in Guile Scheme.
+You can&amp;rsquo;t really say the same for NixOS. The language itself is more limited to package definitions, which makes it harder to set system-level configurations. If you want to customise deeply at system-level you will probably need external scripting or some other configuration management tools.&lt;/p&gt;
+&lt;p&gt;Scheme has a long history in theoretical computer science and has been used for decades in academic research and programming language design. Using Scheme to configure your system basically gives your superpowers, it&amp;rsquo;s pretty much like standing on the shoulders of giants.
+To be honest I don&amp;rsquo;t see a point in learning such a complex language as Nix just to define packages. Scheme gives you so much potential for broader use cases other than package definitions. System configuration, scripting, automation, general programming, you name it. Even if you don&amp;rsquo;t plan to write packages for Guix you still can use Scheme for lots of other tasks, specially if your using the Guix operating system.&lt;/p&gt;
+&lt;h2 id=&#34;guix-is-free-as-in-freedom&#34;&gt;Guix is Free (as in Freedom)&lt;/h2&gt;
+&lt;p&gt;Guix places more emphasis on software freedom and adheres to the FSF standards for ethical distros.&lt;/p&gt;
+&lt;p&gt;Yes, I do use some proprietary software, but that&amp;rsquo;s something I want to change. I would say that the only reason I still use the Linux kernel is because of the lack of free bluetooth drivers for my laptop. That&amp;rsquo;s something I also want to change. I made a mistake buying a bluetooth headphone, specially because I already knew that there were no free bluetooth drivers for me. I hope to abandon Linux and its proprietary binaries as soon as possible. Software freedom might be hard to achieve, but freedom in general isn&amp;rsquo;t easy to achieve.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://preview.redd.it/7ozal346p6kz.png?auto=webp&amp;amp;s=f1058e3a298c411182de3a9bd788f65cec5d1bc1&#34; alt=&#34;RMS_aboslutely_proprietary&#34;&gt;&lt;/p&gt;
 </description>
 	</item>
 	
 	<item>
 		<title>Guix Wallpapers</title>
-		<link>http://localhost:1313/guix-wallpapers/</link>
+		<link>https://0xhenrique.neocities.org/guix-wallpapers/</link>
 		<pubDate>Fri, 20 Sep 2024 20:37:15 +0100</pubDate>
 		
-		<guid>http://localhost:1313/guix-wallpapers/</guid>
+		<guid>https://0xhenrique.neocities.org/guix-wallpapers/</guid>
 		<description>&lt;p&gt;I&amp;rsquo;ve been using Guix for quite some time now. It&amp;rsquo;s been a great experience so far!
 Here are some wallpapers I&amp;rsquo;ve been collecting for my Guix desktop.&lt;/p&gt;
 &lt;p&gt;I think it goes without saying that Suika is the perfect candidate to be the Guix mascot .&lt;/p&gt;
@@ -53,10 +71,10 @@ Here are some wallpapers I&amp;rsquo;ve been collecting for my Guix desktop.&lt;
 	
 	<item>
 		<title>Nazare Beach</title>
-		<link>http://localhost:1313/nazare-beach/</link>
+		<link>https://0xhenrique.neocities.org/nazare-beach/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:45 +0100</pubDate>
 		
-		<guid>http://localhost:1313/nazare-beach/</guid>
+		<guid>https://0xhenrique.neocities.org/nazare-beach/</guid>
 		<description>&lt;p&gt;I visited Nazaré Beach last year (2023). Such a lovely place.
 Shame on me for not taking my camera with me that day. I&amp;rsquo;m not a fan of smartphone cameras to be honest. Still, I couldn&amp;rsquo;t let the opportunity pass. Here are some photos I took that day.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ATjnpyl.jpeg&#34; alt=&#34;1st photo&#34;&gt;&lt;/p&gt;
@@ -70,10 +88,10 @@ Shame on me for not taking my camera with me that day. I&amp;rsquo;m not a fan o
 	
 	<item>
 		<title>Monogatari - Text Editor in Python</title>
-		<link>http://localhost:1313/monogatari/</link>
+		<link>https://0xhenrique.neocities.org/monogatari/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:33 +0100</pubDate>
 		
-		<guid>http://localhost:1313/monogatari/</guid>
+		<guid>https://0xhenrique.neocities.org/monogatari/</guid>
 		<description>&lt;h1 id=&#34;monogatari---text-editorhttpsgithubcomhenrique-marques-vsoftmonogatari&#34;&gt;&lt;a href=&#34;https://github.com/henrique-marques-vsoft/monogatari&#34;&gt;MONOGATARI - Text Editor&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/shinobu.gif&#34; alt=&#34;monogatari-movie scene shinobu kokorowatari&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Monogatari is a text editor built with Python using the Tkinter GUI library.&lt;/p&gt;
@@ -115,10 +133,10 @@ $ git push
 	
 	<item>
 		<title>Lum - Linux Ubiquitous Marker</title>
-		<link>http://localhost:1313/lum/</link>
+		<link>https://0xhenrique.neocities.org/lum/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:26 +0100</pubDate>
 		
-		<guid>http://localhost:1313/lum/</guid>
+		<guid>https://0xhenrique.neocities.org/lum/</guid>
 		<description>&lt;p&gt;Link: &lt;a href=&#34;https://github.com/henrique-marques-vsoft/lum&#34;&gt;https://github.com/henrique-marques-vsoft/lum&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
 The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
@@ -132,10 +150,10 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 	
 	<item>
 		<title>Internet Lurk Compilation #1</title>
-		<link>http://localhost:1313/internet-lurk-compilation/</link>
+		<link>https://0xhenrique.neocities.org/internet-lurk-compilation/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:17 +0100</pubDate>
 		
-		<guid>http://localhost:1313/internet-lurk-compilation/</guid>
+		<guid>https://0xhenrique.neocities.org/internet-lurk-compilation/</guid>
 		<description>&lt;h2 id=&#34;general-findings&#34;&gt;General Findings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Pure gold from the 90s: &lt;a href=&#34;https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation&#34;&gt;https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation&lt;/a&gt;&lt;/li&gt;
@@ -176,10 +194,10 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 	
 	<item>
 		<title>About</title>
-		<link>http://localhost:1313/about/</link>
+		<link>https://0xhenrique.neocities.org/about/</link>
 		<pubDate>Sat, 17 Aug 2024 07:42:34 +0100</pubDate>
 		
-		<guid>http://localhost:1313/about/</guid>
+		<guid>https://0xhenrique.neocities.org/about/</guid>
 		<description>&lt;h1 id=&#34;whois&#34;&gt;whois&lt;/h1&gt;
 &lt;p&gt;Hello there! You can call me Henrique.
 The main purpose of this website is to share some interesting things I find on the world wide web and the projects of mine.
