@@ -32,6 +32,6 @@ jobs:
     - name: Deploy to Neocities
       uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
-        api_token: ${{ secrets.NEOCITIES_API_TOKEN }} # Your Neocities API token stored as a secret
+        api_token: ${{ secrets.NEOCITIES_SECRET }} # Your Neocities API token stored as a secret
         cleanup: false
         dist_dir: public # The Hugo output folder
