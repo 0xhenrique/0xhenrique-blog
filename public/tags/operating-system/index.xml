@@ -1,21 +1,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 	<title>0xhenrique</title>
-	<link>https://0xhenrique.neocities.org/tags/operating-system/</link>
+	<link>http://localhost:1313/tags/operating-system/</link>
 	<description>Recent content in Operating-System on 0xhenrique</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
 	<lastBuildDate>Mon, 23 Sep 2024 04:35:07 +0100</lastBuildDate>
     
-        <atom:link href="https://0xhenrique.neocities.org/tags/operating-system/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/operating-system/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
 		<title>Why I Chose Guix Over Nix</title>
-		<link>https://0xhenrique.neocities.org/why-i-chose-guix-over-nix/</link>
+		<link>http://localhost:1313/why-i-chose-guix-over-nix/</link>
 		<pubDate>Mon, 23 Sep 2024 04:35:07 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/why-i-chose-guix-over-nix/</guid>
+		<guid>http://localhost:1313/why-i-chose-guix-over-nix/</guid>
 		<description>&lt;p&gt;I&amp;rsquo;ve been using NixOS for quite some time, but somehow I ended up with Guix. In this article I will try to write about the reasons why I don&amp;rsquo;t use Nix anymore.&lt;/p&gt;
 &lt;h2 id=&#34;the-emacs--elisp--sicp--scheme-pipeline&#34;&gt;The Emacs &amp;gt; Elisp &amp;gt; SICP &amp;gt; Scheme pipeline&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ouSS2fe.png&#34; alt=&#34;SICP_2hu_version&#34;&gt;
@@ -50,10 +50,10 @@ To be honest I don&amp;rsquo;t see a point in learning such a complex language a
 	
 	<item>
 		<title>Guix Wallpapers</title>
-		<link>https://0xhenrique.neocities.org/guix-wallpapers/</link>
+		<link>http://localhost:1313/guix-wallpapers/</link>
 		<pubDate>Fri, 20 Sep 2024 20:37:15 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/guix-wallpapers/</guid>
+		<guid>http://localhost:1313/guix-wallpapers/</guid>
 		<description>&lt;p&gt;I&amp;rsquo;ve been using Guix for quite some time now. It&amp;rsquo;s been a great experience so far!
 Here are some wallpapers I&amp;rsquo;ve been collecting for my Guix desktop.&lt;/p&gt;
 &lt;p&gt;I think it goes without saying that Suika is the perfect candidate to be the Guix mascot .&lt;/p&gt;
@@ -71,10 +71,10 @@ Here are some wallpapers I&amp;rsquo;ve been collecting for my Guix desktop.&lt;
 	
 	<item>
 		<title>Nazare Beach</title>
-		<link>https://0xhenrique.neocities.org/nazare-beach/</link>
+		<link>http://localhost:1313/nazare-beach/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:45 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/nazare-beach/</guid>
+		<guid>http://localhost:1313/nazare-beach/</guid>
 		<description>&lt;p&gt;I visited Nazaré Beach last year (2023). Such a lovely place.
 Shame on me for not taking my camera with me that day. I&amp;rsquo;m not a fan of smartphone cameras to be honest. Still, I couldn&amp;rsquo;t let the opportunity pass. Here are some photos I took that day.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ATjnpyl.jpeg&#34; alt=&#34;1st photo&#34;&gt;&lt;/p&gt;
@@ -88,10 +88,10 @@ Shame on me for not taking my camera with me that day. I&amp;rsquo;m not a fan o
 	
 	<item>
 		<title>Monogatari - Text Editor in Python</title>
-		<link>https://0xhenrique.neocities.org/monogatari/</link>
+		<link>http://localhost:1313/monogatari/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:33 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/monogatari/</guid>
+		<guid>http://localhost:1313/monogatari/</guid>
 		<description>&lt;h1 id=&#34;monogatari---text-editorhttpsgithubcomhenrique-marques-vsoftmonogatari&#34;&gt;&lt;a href=&#34;https://github.com/henrique-marques-vsoft/monogatari&#34;&gt;MONOGATARI - Text Editor&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/shinobu.gif&#34; alt=&#34;monogatari-movie scene shinobu kokorowatari&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Monogatari is a text editor built with Python using the Tkinter GUI library.&lt;/p&gt;
@@ -133,10 +133,10 @@ $ git push
 	
 	<item>
 		<title>Lum - Linux Ubiquitous Marker</title>
-		<link>https://0xhenrique.neocities.org/lum/</link>
+		<link>http://localhost:1313/lum/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:26 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/lum/</guid>
+		<guid>http://localhost:1313/lum/</guid>
 		<description>&lt;p&gt;Link: &lt;a href=&#34;https://github.com/henrique-marques-vsoft/lum&#34;&gt;https://github.com/henrique-marques-vsoft/lum&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
 The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
@@ -150,10 +150,10 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 	
 	<item>
 		<title>Internet Lurk Compilation #1</title>
-		<link>https://0xhenrique.neocities.org/internet-lurk-compilation/</link>
+		<link>http://localhost:1313/internet-lurk-compilation/</link>
 		<pubDate>Sat, 17 Aug 2024 07:44:17 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/internet-lurk-compilation/</guid>
+		<guid>http://localhost:1313/internet-lurk-compilation/</guid>
 		<description>&lt;h2 id=&#34;general-findings&#34;&gt;General Findings&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Pure gold from the 90s: &lt;a href=&#34;https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation&#34;&gt;https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation&lt;/a&gt;&lt;/li&gt;
@@ -194,10 +194,10 @@ I don&amp;rsquo;t think parsing 12 thousand objects in JSON is efficient, but it
 	
 	<item>
 		<title>About</title>
-		<link>https://0xhenrique.neocities.org/about/</link>
+		<link>http://localhost:1313/about/</link>
 		<pubDate>Sat, 17 Aug 2024 07:42:34 +0100</pubDate>
 		
-		<guid>https://0xhenrique.neocities.org/about/</guid>
+		<guid>http://localhost:1313/about/</guid>
 		<description>&lt;h1 id=&#34;whois&#34;&gt;whois&lt;/h1&gt;
 &lt;p&gt;Hello there! You can call me Henrique.
 The main purpose of this website is to share some interesting things I find on the world wide web and the projects of mine.
