@@ -1,6 +1,7 @@
 +++
 title = 'Why the Hell Do We Still Work?'
 date = 2024-09-24T09:42:04+01:00
+draft = true
 +++
 
 Have you ever thought that if it weren't for technological advances, we'd still be lighting candles at night?
