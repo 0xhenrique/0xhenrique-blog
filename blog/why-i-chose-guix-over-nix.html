@@ -7,24 +7,22 @@
       href="https://0xhenrique.neocities.org/rss.xml"
       title="RSS feed for https://0xhenrique.neocities.org/">
 <title>Why I Chose Guix Over Nix</title>
-<meta name="author" content="John Dow">
+<meta name="author" content="Henrique Marques">
 <meta name="referrer" content="no-referrer">
 <meta name="viewport" content="initial-scale=1,width=device-width,minimum-scale=1">
 <link href= "static/style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="static/favicon.ico"></head>
 <body>
-<div id="preamble" class="status"><div class="header">
-  <a href="https://0xhenrique.neocities.org">0xhenrique</a>
-</div></div>
+<div id="preamble" class="status"><ul class="menu-list"><li class="menu-item"><a href="https://0xhenrique.neocities.org/">λ 0xhenrique</a></li><li class="menu-item"><a href="https://0xhenrique.neocities.org/tag-projects">Projects</a></li><li class="menu-item"><a href="https://0xhenrique.neocities.org/tags">Tags</a></li><li class="menu-item"><a href="https://0xhenrique.neocities.org/archive">Archive</a></li><li class="menu-item"><a href="https://0xhenrique.neocities.org/rss.xml">RSS</a></li><li class="menu-item" style="float:right"><a href="https://0xhenrique.neocities.org/about">About</a></li></ul></div>
 <div id="content">
 <div class="post-date">23 Sep 2024</div><h1 class="post-title"><a href="https://0xhenrique.neocities.org/why-i-chose-guix-over-nix.html">Why I Chose Guix Over Nix</a></h1>
 <p>
 I've been using NixOS for quite some time, but somehow I ended up with Guix. In this article I will try to write about the reasons why I don't use Nix anymore.
 </p>
 
-<div id="outline-container-orgb242145" class="outline-2">
-<h2 id="orgb242145">The Emacs &gt; Elisp &gt; SICP &gt; Scheme pipeline</h2>
-<div class="outline-text-2" id="text-orgb242145">
+<div id="outline-container-orgd2efdda" class="outline-2">
+<h2 id="orgd2efdda">The Emacs &gt; Elisp &gt; SICP &gt; Scheme pipeline</h2>
+<div class="outline-text-2" id="text-orgd2efdda">
 <p>
 <img src="https://i.imgur.com/ouSS2fe.png" alt="ouSS2fe.png">
 I honestly don't remember the first time I heard about Emacs, but I remember the first time I tried to use it I got gatekept by the Elisp magecraft.
@@ -42,9 +40,9 @@ That was when I finally decided to read the SICP and, consequently, learn Scheme
 </div>
 </div>
 
-<div id="outline-container-org85cc215" class="outline-2">
-<h2 id="org85cc215">The Nix Language is not easy to write</h2>
-<div class="outline-text-2" id="text-org85cc215">
+<div id="outline-container-orgae02c87" class="outline-2">
+<h2 id="orgae02c87">The Nix Language is not easy to write</h2>
+<div class="outline-text-2" id="text-orgae02c87">
 <p>
 And that alone is huge win for Guix. Configuring Nix packages was a pain in the ass. Not because you need to set everything up from scratch (that's not even a problem), but because the language is confusing as hell and the documentation doesn't help. It's not a secret, everywhere you go on the internet you will find people complaining about how the Nix language is hard to grasp, but no because it is complex, just because it lacks proper documentation. You can't be sure to find what you're looking for. All the information is fragmented on the internet, there is not a place where you can just find what you're looking for.
 At the end of the day you spend more time guessing "where the information is" rather "how to do X".
@@ -52,7 +50,7 @@ For instance, here's a comparison between the figlet package ported to Nix and t
 </p>
 
 
-<figure id="orgeaca7b0">
+<figure id="org1cafcf5">
 <img src="https://i.imgur.com/9epJ4qs.png" alt="9epJ4qs.png">
 
 </figure>
@@ -68,11 +66,11 @@ Guix solves that. It's not like you need to learn a complex language to start wi
 </div>
 </div>
 
-<div id="outline-container-org2a95983" class="outline-2">
-<h2 id="org2a95983">The LISP way of life</h2>
-<div class="outline-text-2" id="text-org2a95983">
+<div id="outline-container-org622a036" class="outline-2">
+<h2 id="org622a036">The LISP way of life</h2>
+<div class="outline-text-2" id="text-org622a036">
 
-<figure id="org02ea5bd">
+<figure id="orgf8c40f5">
 <img src="https://imgs.xkcd.com/comics/lisp_cycles.png" alt="lisp_cycles.png">
 
 </figure>
@@ -95,9 +93,9 @@ To be honest I don't see a point in learning such a complex language as Nix just
 </div>
 </div>
 
-<div id="outline-container-org09b3234" class="outline-2">
-<h2 id="org09b3234">Guix is Free (as in Freedom)</h2>
-<div class="outline-text-2" id="text-org09b3234">
+<div id="outline-container-orgf73d14d" class="outline-2">
+<h2 id="orgf73d14d">Guix is Free (as in Freedom)</h2>
+<div class="outline-text-2" id="text-orgf73d14d">
 <p>
 Guix places more emphasis on software freedom and adheres to the FSF standards for ethical distros.
 </p>
@@ -107,16 +105,14 @@ Yes, I do use some proprietary software, but that's something I want to change. 
 </p>
 
 
-<figure id="orgea93cfd">
+<figure id="org33d213a">
 <img src="https://preview.redd.it/7ozal346p6kz.png?auto=webp&amp;s=f1058e3a298c411182de3a9bd788f65cec5d1bc1" alt="7ozal346p6kz.png?auto=webp&amp;s=f1058e3a298c411182de3a9bd788f65cec5d1bc1">
 
 </figure>
 </div>
 </div>
 <div class="taglist"><a href="https://0xhenrique.neocities.org/tags.html">Tags</a>: <a href="https://0xhenrique.neocities.org/tag-guix.html">guix</a> <a href="https://0xhenrique.neocities.org/tag-nix.html">nix</a> <a href="https://0xhenrique.neocities.org/tag-operating-systems.html">operating-systems</a> </div></div>
-<div id="postamble" class="status"><div id="archive">
-  <a href="https://0xhenrique.neocities.org/archive.html">Other posts</a>
-</div>
+<div id="postamble" class="status"><a href="https://0xhenrique.neocities.org/rss.xml">My RSS Feed</a>
 <center>Created using GNU Emacs + <a href="https://github.com/bastibe/org-static-blog">Org Static Blog</a>.</center></div>
 </body>
 </html>

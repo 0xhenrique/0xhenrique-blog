@@ -1,4 +1,5 @@
 * 0xhenrique Blog
 
-Repository for my personal blog: https://0xhenrique.neocities.org/
-Created using GNU Emacs and [[https://github.com/bastibe/org-static-blog][org-static-blog]].
+Repository for my personal blog: https://0xhenrique.neocities.org/ 
+
+Created using GNU Emacs and [[https://github.com/bastibe/org-static-blog][org-static-blog]]. 
