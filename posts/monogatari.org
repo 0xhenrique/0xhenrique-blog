@@ -1,0 +1,54 @@
+#+title: Monogatari - Text Editor in Python
+#+date: <2024-08-17 08:57>
+#+filetags: projects python
+#+ATTR_HTML: :border 2 :rules all :frame border
+
+Monogatari is a text editor built with Python using the Tkinter GUI library.
+https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/shinobu.gif
+
+** Installation and usage
+Assuming you already have Python installed in your machine:
+#+BEGIN_SRC bash
+$ git clone git@github.com:all123all/monogatari.git
+$ cd monogatari
+$ python monogatari.py
+#+END_SRC
+
+If you're using Linux you probably will need to install tk manually:
+
+#+BEGIN_SRC bash
+//Arch based distros
+$ sudo pacman -S tk
+//For Ubuntu based
+$ sudo apt-get install tk
+#+END_SRC
+
+** Goals
+
+- [x] Basic text editor functionalities (create file, open file, exit etc.)
+- [x] Black background and a colorpicker option to choose another color
+- [ ] Test routine for the basic functionalities
+- [ ] Release a package
+- [ ] The close function is being called even when the file isn't modified
+
+** Contribute to MONOGATARI - Text Editor
+
+- Click the fork button on top right
+- Git clone your fork
+- Connect with my repo:
+#+BEGIN_SRC bash
+$ git remote add all123all git://github.com/all123all/monogatari
+$ git remote -v
+#+END_SRC
+
+You are now ready to start to code! Just do as always:
+#+BEGIN_SRC bash
+$ git add .
+$ git commit -m "fix: something that was fixed"
+$ git push
+#+END_SRC
+
+Then you can create a pull request right here on Github. Just go to the Pull Requests tab and select `New pull request` button to do so.
+
+** Screenshots
+https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/print.png

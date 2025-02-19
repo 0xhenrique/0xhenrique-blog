@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="alternate"
+      type="application/rss+xml"
+      href="https://0xhenrique.neocities.org/rss.xml"
+      title="RSS feed for https://0xhenrique.neocities.org/">
+<title>Lum - Linux Ubiquitous Marker</title>
+<meta name="author" content="John Dow">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="initial-scale=1,width=device-width,minimum-scale=1">
+<link href= "static/style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="static/favicon.ico"></head>
+<body>
+<div id="preamble" class="status"><div class="header">
+  <a href="https://0xhenrique.neocities.org">0xhenrique</a>
+</div></div>
+<div id="content">
+<div class="post-date">17 Aug 2024</div><h1 class="post-title"><a href="https://0xhenrique.neocities.org/lum.html">Lum - Linux Ubiquitous Marker</a></h1>
+<p>
+Link: <a href="https://github.com/0xhenrique/lum">https://github.com/0xhenrique/lum</a>
+</p>
+
+<p>
+Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
+The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
+I'm still not sure if I'm going to turn this project into a CLI tool or a library. I still need to try to integrate Lum with some other tool and evaluate which points I failed, which ones I need to improve and where I got things right.
+I also wanted to have contact with Rust in practice. I have some things to say about the Rust language, but I think that will be for another post on this blog.
+</p>
+
+<p>
+For now, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
+I'm still evaluating whether this would be the most practical and quickest way, considering that I already accumulated more than 12 thousand bookmarks at the height of my NEET time.
+I don't think parsing 12 thousand objects in JSON is efficient, but it's something I still need to test in practice.
+</p>
+
+<p>
+Although it is not really necessary to run this program, having fzf and xclip would be great if you want to integrate with other programs. A pretty useful command to fetch your bookmarks would be:
+</p>
+<div class="org-src-container">
+<pre class="src src-bash">$ lum -l | fzf | xclip -selection clipboard
+</pre>
+</div>
+<div class="taglist"><a href="https://0xhenrique.neocities.org/tags.html">Tags</a>: <a href="https://0xhenrique.neocities.org/tag-projects.html">projects</a> <a href="https://0xhenrique.neocities.org/tag-programming.html">programming</a> <a href="https://0xhenrique.neocities.org/tag-clojure.html">clojure</a> <a href="https://0xhenrique.neocities.org/tag-lum.html">lum</a> </div></div>
+<div id="postamble" class="status"><div id="archive">
+  <a href="https://0xhenrique.neocities.org/archive.html">Other posts</a>
+</div>
+<center>Created using GNU Emacs + <a href="https://github.com/bastibe/org-static-blog">Org Static Blog</a>.</center></div>
+</body>
+</html>

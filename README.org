@@ -1,7 +1,4 @@
-* 0xhenrique
+* 0xhenrique Blog
 
-=hugo server= to run local server;
-
-=hugo= to build everything;
-
-=hugo new new-post.md= to create a new post;
+Repository for my personal blog: https://0xhenrique.neocities.org/
+Created using GNU Emacs and [[https://github.com/bastibe/org-static-blog][org-static-blog]].
