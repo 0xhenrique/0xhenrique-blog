@@ -8,12 +8,17 @@ Link: https://github.com/0xhenrique/lum
 Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
 The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
 I'm still not sure if I'm going to turn this project into a CLI tool or a library. I still need to try to integrate Lum with some other tool and evaluate which points I failed, which ones I need to improve and where I got things right.
-I also wanted to have contact with Rust in practice. I have some things to say about the Rust language, but I think that will be for another post on this blog.
 
-For now, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
+I started using the Rust language, but I realized that I wasn't familiar enough with the language to do this. So I left Rust aside for a while and took advantage of the situation to rewrite Lum using Clojure, since I had been planning to put it into practice for a while.
+
+This was my first more "serious" project using Clojure, so a lot of things are out of place, a lot of rough edges, a lot of design mistakes, etc.
+For example, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
 I'm still evaluating whether this would be the most practical and quickest way, considering that I already accumulated more than 12 thousand bookmarks at the height of my NEET time.
 I don't think parsing 12 thousand objects in JSON is efficient, but it's something I still need to test in practice.
+But at least it helped me get better grasp of a Lisp language. I still intend to revisit this project sometime in the future, maybe even restructure it from scratch to fix the mistakes I made.
+For now, I don't think it can replace browser bookmarks, but it's something I'll focus on more in my next iteration with Lum.
 
+*** Running Lum
 Although it is not really necessary to run this program, having fzf and xclip would be great if you want to integrate with other programs. A pretty useful command to fetch your bookmarks would be:
 #+BEGIN_SRC bash
 $ lum -l | fzf | xclip -selection clipboard
