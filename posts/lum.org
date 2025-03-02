@@ -18,8 +18,22 @@ I don't think parsing 12 thousand objects in JSON is efficient, but it's somethi
 But at least it helped me get better grasp of a Lisp language. I still intend to revisit this project sometime in the future, maybe even restructure it from scratch to fix the mistakes I made.
 For now, I don't think it can replace browser bookmarks, but it's something I'll focus on more in my next iteration with Lum.
 
-*** Running Lum
+** Running Lum
 Although it is not really necessary to run this program, having fzf and xclip would be great if you want to integrate with other programs. A pretty useful command to fetch your bookmarks would be:
 #+BEGIN_SRC bash
 $ lum -l | fzf | xclip -selection clipboard
+#+END_SRC
+
+** Integration with Emacs
+While I'm not deploying binary packages to Lum, I can check my bookmarks through Emacs with a very simple function:
+#+BEGIN_SRC emacs-lisp
+(defun pache/my-consult-bookmark ()
+  "Select a bookmark using `completing-read` and copy it to the clipboard."
+  (interactive)
+  (let* ((candidates (split-string (shell-command-to-string "java -jar ~/path/to/lum-1.0.0-SNAPSHOT-standalone.jar -l") "\n" t))
+         (selection (completing-read "Select bookmark: " candidates)))
+    (when selection
+      (kill-new selection)
+      (message "Copied to clipboard: %s" selection))))
+(global-set-key (kbd "C-c b") 'pache/my-consult-bookmark)
 #+END_SRC

@@ -4,25 +4,25 @@
 <title><![CDATA[0xhenrique]]></title>
 <description><![CDATA[0xhenrique]]></description>
 <link>https://0xhenrique.neocities.org/</link>
-<lastBuildDate>Wed, 19 Feb 2025 21:38:29 +0000</lastBuildDate>
+<lastBuildDate>Sun, 02 Mar 2025 10:55:52 +0000</lastBuildDate>
 <item>
   <title><![CDATA[Pluto Review]]></title>
   <description><![CDATA[
 
-<div id="outline-container-orgfd79252" class="outline-2">
-<h2 id="orgfd79252">Summary</h2>
-<div class="outline-text-2" id="text-orgfd79252">
+<div id="outline-container-org638aa67" class="outline-2">
+<h2 id="org638aa67">Summary</h2>
+<div class="outline-text-2" id="text-org638aa67">
 <p>
 I would dare to say that Pluto is an anime carried almost entirely by its direction and art, while its story leaves something to be desired in many respects. I had difficulties with the way the author approached the problems inherent in the type of narrative he chose. In this review, I won't go into the technical aspects of animation and direction since I don't have enough knowledge to evaluate them. My focus will be on the writing and storytelling.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orga1e0af3" class="outline-2">
-<h2 id="orga1e0af3">The premise</h2>
-<div class="outline-text-2" id="text-orga1e0af3">
+<div id="outline-container-org0482d5b" class="outline-2">
+<h2 id="org0482d5b">The premise</h2>
+<div class="outline-text-2" id="text-org0482d5b">
 
-<figure id="orgb3ee763">
+<figure id="org2051e7d">
 <img src="https://i.imgur.com/oEU9QPZ.jpeg" alt="oEU9QPZ.jpeg">
 
 </figure>
@@ -41,11 +41,11 @@ I believe that the two biggest flaws in the narrative are exactly these: the att
 </div>
 </div>
 
-<div id="outline-container-org134081d" class="outline-2">
-<h2 id="org134081d">Robots are not slaves</h2>
-<div class="outline-text-2" id="text-org134081d">
+<div id="outline-container-orgb8be761" class="outline-2">
+<h2 id="orgb8be761">Robots are not slaves</h2>
+<div class="outline-text-2" id="text-orgb8be761">
 
-<figure id="org38bc51c">
+<figure id="org1262838">
 <img src="https://i.imgur.com/qV2kSo3.jpeg" alt="qV2kSo3.jpeg">
 
 </figure>
@@ -60,11 +60,11 @@ However, there is a fundamental difference between the two cases: human emotions
 </div>
 </div>
 
-<div id="outline-container-org869c2a4" class="outline-2">
-<h2 id="org869c2a4">Do robots have empathy?</h2>
-<div class="outline-text-2" id="text-org869c2a4">
+<div id="outline-container-orgc81a594" class="outline-2">
+<h2 id="orgc81a594">Do robots have empathy?</h2>
+<div class="outline-text-2" id="text-orgc81a594">
 
-<figure id="org082401f">
+<figure id="orgf879817">
 <img src="https://i.imgur.com/h64nW5I.jpeg" alt="h64nW5I.jpeg">
 
 </figure>
@@ -79,11 +79,11 @@ This scene completely breaks the idea that robots can really feel like humans do
 </div>
 </div>
 
-<div id="outline-container-org1c81072" class="outline-2">
-<h2 id="org1c81072">The Best Part</h2>
-<div class="outline-text-2" id="text-org1c81072">
+<div id="outline-container-org23ea2ca" class="outline-2">
+<h2 id="org23ea2ca">The Best Part</h2>
+<div class="outline-text-2" id="text-org23ea2ca">
 
-<figure id="org1fe1e3e">
+<figure id="org3b53d13">
 <img src="https://i.imgur.com/FAFafwr.jpeg" alt="FAFafwr.jpeg">
 
 </figure>
@@ -94,11 +94,11 @@ For me, the highlight of Pluto remains the first episode. The story of Sir Dunca
 </div>
 </div>
 
-<div id="outline-container-orgf9839ff" class="outline-2">
-<h2 id="orgf9839ff">Conclusion</h2>
-<div class="outline-text-2" id="text-orgf9839ff">
+<div id="outline-container-org3a751d2" class="outline-2">
+<h2 id="org3a751d2">Conclusion</h2>
+<div class="outline-text-2" id="text-org3a751d2">
 
-<figure id="org4d632ac">
+<figure id="org43fef8b">
 <img src="https://i.imgur.com/lTmfFfr.jpeg" alt="lTmfFfr.jpeg">
 
 </figure>
@@ -113,11 +113,11 @@ I also missed a more memorable soundtrack. There were several moments in the ani
 </div>
 </div>
 
-<div id="outline-container-orgeaaa2f8" class="outline-2">
-<h2 id="orgeaaa2f8">Final considerations</h2>
-<div class="outline-text-2" id="text-orgeaaa2f8">
+<div id="outline-container-orgf62e36f" class="outline-2">
+<h2 id="orgf62e36f">Final considerations</h2>
+<div class="outline-text-2" id="text-orgf62e36f">
 
-<figure id="orgd710842">
+<figure id="org3e4da9a">
 <img src="https://i.imgur.com/Gjtwhpn.jpeg" alt="Gjtwhpn.jpeg">
 
 </figure>
@@ -145,11 +145,16 @@ In the end, Pluto raises interesting questions, but fails to answer them reasona
 I've been using NixOS for quite some time, but somehow I ended up with Guix. In this article I will try to write about the reasons why I don't use Nix anymore.
 </p>
 
-<div id="outline-container-orgd2efdda" class="outline-2">
-<h2 id="orgd2efdda">The Emacs &gt; Elisp &gt; SICP &gt; Scheme pipeline</h2>
-<div class="outline-text-2" id="text-orgd2efdda">
-<p>
+<div id="outline-container-org52a7020" class="outline-2">
+<h2 id="org52a7020">The Emacs &gt; Elisp &gt; SICP &gt; Scheme pipeline</h2>
+<div class="outline-text-2" id="text-org52a7020">
+
+<figure id="org3c2064a">
 <img src="https://i.imgur.com/ouSS2fe.png" alt="ouSS2fe.png">
+
+</figure>
+
+<p>
 I honestly don't remember the first time I heard about Emacs, but I remember the first time I tried to use it I got gatekept by the Elisp magecraft.
 After that, I spent some days trying to learn some basic concepts of this ancient text editor. Thanks to <a href="https://learnxinyminutes.com/docs/elisp/">https://learnxinyminutes.com/docs/elisp/</a> I was able to write some simple functions to make my Emacs experience smoother. To be honest, I didn't really liked to write Lisp back then, it sucked a lot for me. Even reading simple functions was a hassle since I wasn't used to see through all the parenthesis.
 At that time, I already knew about the 'Structure and Interpretaion of Computer Programs' book, but didn't read until then. It was only after seeing the MIT class linked below that I got hooked into computer magecraft:
@@ -165,9 +170,9 @@ That was when I finally decided to read the SICP and, consequently, learn Scheme
 </div>
 </div>
 
-<div id="outline-container-orgae02c87" class="outline-2">
-<h2 id="orgae02c87">The Nix Language is not easy to write</h2>
-<div class="outline-text-2" id="text-orgae02c87">
+<div id="outline-container-orge3f7226" class="outline-2">
+<h2 id="orge3f7226">The Nix Language is not easy to write</h2>
+<div class="outline-text-2" id="text-orge3f7226">
 <p>
 And that alone is huge win for Guix. Configuring Nix packages was a pain in the ass. Not because you need to set everything up from scratch (that's not even a problem), but because the language is confusing as hell and the documentation doesn't help. It's not a secret, everywhere you go on the internet you will find people complaining about how the Nix language is hard to grasp, but no because it is complex, just because it lacks proper documentation. You can't be sure to find what you're looking for. All the information is fragmented on the internet, there is not a place where you can just find what you're looking for.
 At the end of the day you spend more time guessing "where the information is" rather "how to do X".
@@ -175,7 +180,7 @@ For instance, here's a comparison between the figlet package ported to Nix and t
 </p>
 
 
-<figure id="org1cafcf5">
+<figure id="org2fce92a">
 <img src="https://i.imgur.com/9epJ4qs.png" alt="9epJ4qs.png">
 
 </figure>
@@ -191,11 +196,11 @@ Guix solves that. It's not like you need to learn a complex language to start wi
 </div>
 </div>
 
-<div id="outline-container-org622a036" class="outline-2">
-<h2 id="org622a036">The LISP way of life</h2>
-<div class="outline-text-2" id="text-org622a036">
+<div id="outline-container-org155caa0" class="outline-2">
+<h2 id="org155caa0">The LISP way of life</h2>
+<div class="outline-text-2" id="text-org155caa0">
 
-<figure id="orgf8c40f5">
+<figure id="orgaff009b">
 <img src="https://imgs.xkcd.com/comics/lisp_cycles.png" alt="lisp_cycles.png">
 
 </figure>
@@ -218,9 +223,9 @@ To be honest I don't see a point in learning such a complex language as Nix just
 </div>
 </div>
 
-<div id="outline-container-orgf73d14d" class="outline-2">
-<h2 id="orgf73d14d">Guix is Free (as in Freedom)</h2>
-<div class="outline-text-2" id="text-orgf73d14d">
+<div id="outline-container-orgf929901" class="outline-2">
+<h2 id="orgf929901">Guix is Free (as in Freedom)</h2>
+<div class="outline-text-2" id="text-orgf929901">
 <p>
 Guix places more emphasis on software freedom and adheres to the FSF standards for ethical distros.
 </p>
@@ -230,7 +235,7 @@ Yes, I do use some proprietary software, but that's something I want to change. 
 </p>
 
 
-<figure id="org33d213a">
+<figure id="orgd702468">
 <img src="https://preview.redd.it/7ozal346p6kz.png?auto=webp&amp;s=f1058e3a298c411182de3a9bd788f65cec5d1bc1" alt="7ozal346p6kz.png?auto=webp&amp;s=f1058e3a298c411182de3a9bd788f65cec5d1bc1">
 
 </figure>
@@ -283,9 +288,9 @@ Monogatari is a text editor built with Python using the Tkinter GUI library.
 <img src="https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/shinobu.gif" alt="shinobu.gif">
 </p>
 
-<div id="outline-container-org1dd79a4" class="outline-2">
-<h2 id="org1dd79a4">Installation and usage</h2>
-<div class="outline-text-2" id="text-org1dd79a4">
+<div id="outline-container-org33dc944" class="outline-2">
+<h2 id="org33dc944">Installation and usage</h2>
+<div class="outline-text-2" id="text-org33dc944">
 <p>
 Assuming you already have Python installed in your machine:
 </p>
@@ -310,9 +315,9 @@ $ sudo apt-get install tk
 </div>
 </div>
 
-<div id="outline-container-orgcd6c788" class="outline-2">
-<h2 id="orgcd6c788">Goals</h2>
-<div class="outline-text-2" id="text-orgcd6c788">
+<div id="outline-container-org4f24ae7" class="outline-2">
+<h2 id="org4f24ae7">Goals</h2>
+<div class="outline-text-2" id="text-org4f24ae7">
 <ul class="org-ul">
 <li>Basic text editor functionalities (create file, open file, exit etc.)</li>
 <li>Black background and a colorpicker option to choose another color</li>
@@ -323,9 +328,9 @@ $ sudo apt-get install tk
 </div>
 </div>
 
-<div id="outline-container-org1972359" class="outline-2">
-<h2 id="org1972359">Contribute to MONOGATARI - Text Editor</h2>
-<div class="outline-text-2" id="text-org1972359">
+<div id="outline-container-orgfd5380a" class="outline-2">
+<h2 id="orgfd5380a">Contribute to MONOGATARI - Text Editor</h2>
+<div class="outline-text-2" id="text-orgfd5380a">
 <ul class="org-ul">
 <li>Click the fork button on top right</li>
 <li>Git clone your fork</li>
@@ -353,11 +358,11 @@ Then you can create a pull request right here on Github. Just go to the Pull Req
 </div>
 </div>
 
-<div id="outline-container-org9d02ae9" class="outline-2">
-<h2 id="org9d02ae9">Screenshots</h2>
-<div class="outline-text-2" id="text-org9d02ae9">
+<div id="outline-container-orgc1af18f" class="outline-2">
+<h2 id="orgc1af18f">Screenshots</h2>
+<div class="outline-text-2" id="text-orgc1af18f">
 
-<figure id="org04bbec1">
+<figure id="orgef4ccac">
 <img src="https://raw.githubusercontent.com/henrique-marques-vsoft/monogatari/master/pics/print.png" alt="print.png">
 
 </figure>
@@ -381,21 +386,53 @@ Link: <a href="https://github.com/0xhenrique/lum">https://github.com/0xhenrique/
 Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
 The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
 I'm still not sure if I'm going to turn this project into a CLI tool or a library. I still need to try to integrate Lum with some other tool and evaluate which points I failed, which ones I need to improve and where I got things right.
-I also wanted to have contact with Rust in practice. I have some things to say about the Rust language, but I think that will be for another post on this blog.
 </p>
 
 <p>
-For now, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
-I'm still evaluating whether this would be the most practical and quickest way, considering that I already accumulated more than 12 thousand bookmarks at the height of my NEET time.
-I don't think parsing 12 thousand objects in JSON is efficient, but it's something I still need to test in practice.
+I started using the Rust language, but I realized that I wasn't familiar enough with the language to do this. So I left Rust aside for a while and took advantage of the situation to rewrite Lum using Clojure, since I had been planning to put it into practice for a while.
 </p>
 
+<p>
+This was my first more "serious" project using Clojure, so a lot of things are out of place, a lot of rough edges, a lot of design mistakes, etc.
+For example, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
+I'm still evaluating whether this would be the most practical and quickest way, considering that I already accumulated more than 12 thousand bookmarks at the height of my NEET time.
+I don't think parsing 12 thousand objects in JSON is efficient, but it's something I still need to test in practice.
+But at least it helped me get better grasp of a Lisp language. I still intend to revisit this project sometime in the future, maybe even restructure it from scratch to fix the mistakes I made.
+For now, I don't think it can replace browser bookmarks, but it's something I'll focus on more in my next iteration with Lum.
+</p>
+
+<div id="outline-container-orgd17e46a" class="outline-2">
+<h2 id="orgd17e46a">Running Lum</h2>
+<div class="outline-text-2" id="text-orgd17e46a">
 <p>
 Although it is not really necessary to run this program, having fzf and xclip would be great if you want to integrate with other programs. A pretty useful command to fetch your bookmarks would be:
 </p>
 <div class="org-src-container">
 <pre class="src src-bash">$ lum -l | fzf | xclip -selection clipboard
 </pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org63438a4" class="outline-2">
+<h2 id="org63438a4">Integration with Emacs</h2>
+<div class="outline-text-2" id="text-org63438a4">
+<p>
+While I'm not deploying binary packages to Lum, I can check my bookmarks through Emacs with a very simple function:
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(defun pache/my-consult-bookmark ()
+  "Select a bookmark using `completing-read` and copy it to the clipboard."
+  (interactive)
+  (let* ((candidates (split-string (shell-command-to-string "java -jar ~/path/to/lum-1.0.0-SNAPSHOT-standalone.jar -l") "\n" t))
+         (selection (completing-read "Select bookmark: " candidates)))
+    (when selection
+      (kill-new selection)
+      (message "Copied to clipboard: %s" selection))))
+(global-set-key (kbd "C-c b") 'pache/my-consult-bookmark)
+</pre>
+</div>
+</div>
 </div>
 <div class="taglist"><a href="https://0xhenrique.neocities.org/tags.html">Tags</a>: <a href="https://0xhenrique.neocities.org/tag-projects.html">projects</a> <a href="https://0xhenrique.neocities.org/tag-programming.html">programming</a> <a href="https://0xhenrique.neocities.org/tag-clojure.html">clojure</a> <a href="https://0xhenrique.neocities.org/tag-lum.html">lum</a> </div>]]></description>
   <category><![CDATA[projects]]></category>
@@ -410,9 +447,9 @@ Although it is not really necessary to run this program, having fzf and xclip wo
   <title><![CDATA[Internet Lurk Compilation #1]]></title>
   <description><![CDATA[
 
-<div id="outline-container-org46031e2" class="outline-2">
-<h2 id="org46031e2">General Findings</h2>
-<div class="outline-text-2" id="text-org46031e2">
+<div id="outline-container-orga90ca24" class="outline-2">
+<h2 id="orga90ca24">General Findings</h2>
+<div class="outline-text-2" id="text-orga90ca24">
 <ul class="org-ul">
 <li>Pure gold from the 90s: <a href="https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation">https://lunduke.substack.com/p/the-computers-used-to-do-3d-animation</a></li>
 <li>Symbolics Internet Museum: <a href="https://symbolics.com/museum/">https://symbolics.com/museum/</a></li>
@@ -425,9 +462,9 @@ Although it is not really necessary to run this program, having fzf and xclip wo
 </div>
 </div>
 
-<div id="outline-container-org3b10731" class="outline-2">
-<h2 id="org3b10731">Neocities</h2>
-<div class="outline-text-2" id="text-org3b10731">
+<div id="outline-container-org8467a66" class="outline-2">
+<h2 id="org8467a66">Neocities</h2>
+<div class="outline-text-2" id="text-org8467a66">
 <ul class="org-ul">
 <li>Lainzine (Lain Magazine): <a href="https://lainzine.org/">https://lainzine.org/</a></li>
 <li>About Software Privacy and other topics: <a href="https://digdeeper.neocities.org/">https://digdeeper.neocities.org/</a></li>
@@ -438,9 +475,9 @@ Although it is not really necessary to run this program, having fzf and xclip wo
 </div>
 </div>
 
-<div id="outline-container-org3bca66d" class="outline-2">
-<h2 id="org3bca66d">Internet Archive Findings</h2>
-<div class="outline-text-2" id="text-org3bca66d">
+<div id="outline-container-orgbc25ecd" class="outline-2">
+<h2 id="orgbc25ecd">Internet Archive Findings</h2>
+<div class="outline-text-2" id="text-orgbc25ecd">
 <ul class="org-ul">
 <li>Oh! PC (Jul 01 1990) [Content in Japanese]: <a href="https://archive.org/details/oh-pc-issue-127-jul-01-1990/Oh%21%20PC%20Issue%20127%20%28Jul%2001%201990%29/mode/2up">https://archive.org/details/oh-pc-issue-127-jul-01-1990/Oh%21%20PC%20Issue%20127%20%28Jul%2001%201990%29/mode/2up</a></li>
 <li>Comptiq Manazine [Content in Japanese]: <a href="https://archive.org/search?query=comptiq">https://archive.org/search?query=comptiq</a></li>
@@ -450,9 +487,9 @@ Although it is not really necessary to run this program, having fzf and xclip wo
 </div>
 </div>
 
-<div id="outline-container-orgdbba70b" class="outline-2">
-<h2 id="orgdbba70b">Websites I visit from time to time</h2>
-<div class="outline-text-2" id="text-orgdbba70b">
+<div id="outline-container-org54a56ab" class="outline-2">
+<h2 id="org54a56ab">Websites I visit from time to time</h2>
+<div class="outline-text-2" id="text-org54a56ab">
 <ul class="org-ul">
 <li>A <code>~modern~</code> Javascript approach to SICP: <a href="https://sicp.sourceacademy.org/">https://sicp.sourceacademy.org/</a></li>
 <li>A blog by Sam Greydanus: <a href="https://greydanus.github.io/">https://greydanus.github.io/</a></li>
@@ -481,9 +518,9 @@ Although it is not really necessary to run this program, having fzf and xclip wo
   <title><![CDATA[About]]></title>
   <description><![CDATA[
 
-<div id="outline-container-org66d3e53" class="outline-2">
-<h2 id="org66d3e53">whoami</h2>
-<div class="outline-text-2" id="text-org66d3e53">
+<div id="outline-container-org1807383" class="outline-2">
+<h2 id="org1807383">whoami</h2>
+<div class="outline-text-2" id="text-org1807383">
 <p>
 Hello there! You can call me Henrique.
 The main purpose of this website is to share some interesting things I find on the world wide web and the projects of mine.
@@ -492,13 +529,13 @@ Some of the stuff I work on <a href="https://github.com/0xhenrique">Github</a>.
 </div>
 </div>
 
-<div id="outline-container-orgd9d1fd5" class="outline-2">
-<h2 id="orgd9d1fd5">My Computers</h2>
-<div class="outline-text-2" id="text-orgd9d1fd5">
+<div id="outline-container-org9f2cc9c" class="outline-2">
+<h2 id="org9f2cc9c">My Computers</h2>
+<div class="outline-text-2" id="text-org9f2cc9c">
 </div>
-<div id="outline-container-orgb631c40" class="outline-3">
-<h3 id="orgb631c40">ThinkPad T480</h3>
-<div class="outline-text-3" id="text-orgb631c40">
+<div id="outline-container-org2e69940" class="outline-3">
+<h3 id="org2e69940">ThinkPad T480</h3>
+<div class="outline-text-3" id="text-org2e69940">
 <ul class="org-ul">
 <li>OS: GNU Guix</li>
 <li>DE: EXWM/XFCE4</li>
@@ -509,9 +546,9 @@ Some of the stuff I work on <a href="https://github.com/0xhenrique">Github</a>.
 </div>
 </div>
 
-<div id="outline-container-orgdd11823" class="outline-3">
-<h3 id="orgdd11823">Xeon PC</h3>
-<div class="outline-text-3" id="text-orgdd11823">
+<div id="outline-container-org3184da4" class="outline-3">
+<h3 id="org3184da4">Xeon PC</h3>
+<div class="outline-text-3" id="text-org3184da4">
 <ul class="org-ul">
 <li>OS: GNU Guix</li>
 <li>DE: EXWM/XFCE4</li>
@@ -523,13 +560,13 @@ Some of the stuff I work on <a href="https://github.com/0xhenrique">Github</a>.
 </div>
 </div>
 
-<div id="outline-container-orgeaee69a" class="outline-2">
-<h2 id="orgeaee69a">Keyboards</h2>
-<div class="outline-text-2" id="text-orgeaee69a">
+<div id="outline-container-org145ec2e" class="outline-2">
+<h2 id="org145ec2e">Keyboards</h2>
+<div class="outline-text-2" id="text-org145ec2e">
 </div>
-<div id="outline-container-org47371bd" class="outline-3">
-<h3 id="org47371bd">The Charybdis by Bastard Keyboards</h3>
-<div class="outline-text-3" id="text-org47371bd">
+<div id="outline-container-org6f8c1d0" class="outline-3">
+<h3 id="org6f8c1d0">The Charybdis by Bastard Keyboards</h3>
+<div class="outline-text-3" id="text-org6f8c1d0">
 <p>
 <img src="https://i.imgur.com/vqbSpXX.jpeg" alt="vqbSpXX.jpeg">
 Right now I'm using the Charybdis. It simply feels "correct" to type with it.  
@@ -540,9 +577,9 @@ But at the end I think it's worth it, at least for me it is.
 </div>
 </div>
 
-<div id="outline-container-org0baf70b" class="outline-3">
-<h3 id="org0baf70b">The Sofle V1 by Mechboards UK</h3>
-<div class="outline-text-3" id="text-org0baf70b">
+<div id="outline-container-org6aa6145" class="outline-3">
+<h3 id="org6aa6145">The Sofle V1 by Mechboards UK</h3>
+<div class="outline-text-3" id="text-org6aa6145">
 <p>
 <img src="https://i.imgur.com/O4zYPni.jpeg" alt="O4zYPni.jpeg">
 The other one I have (although don't use very much anymore) is the Sofle V1 that I bought from Mechboards UK.
@@ -568,7 +605,7 @@ Shame on me for not taking my camera with me that day. I'm not a fan of smartpho
 </p>
 
 
-<figure id="org5ed6e81">
+<figure id="orga5364d6">
 <img src="https://i.imgur.com/ATjnpyl.jpeg" alt="ATjnpyl.jpeg">
 
 </figure>
@@ -578,7 +615,7 @@ According to Wikipedia, Nazaré is one of the most traditional Portuguese fishin
 </p>
 
 
-<figure id="orga23df1e">
+<figure id="orgadc2fba">
 <img src="https://i.imgur.com/GwZIh3p.jpeg" alt="GwZIh3p.jpeg">
 
 </figure>

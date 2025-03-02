@@ -1,95 +1,12 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #002b36;
-    color: #fdf6e3;
-}
-
-#preamble {
-    background-color: #073642;
-    border-bottom: 1px solid #e0e0e0;
-    text-align: center;
-}
-
-#preamble .header a {
-    text-decoration: none;
-    font-size: 1.8em;
-    color: #fdf6e3;
-}
-
-#content {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 0 1em;
-}
-
-.post-date {
-    color: #999;
-    font-size: 0.9em;
-}
-
-.post-title {
-    font-size: 2em;
-    margin: 0;
-}
-
-.post-title a {
-    color: #ffffff;;
-}
-
-#content p {
-    margin-bottom: 1.2em;
+    background-color: #1d2021;
+    color: #ebdbb2;
+    font-family: "Fira Code", "Courier New", Courier, monospace;
     line-height: 1.8;
-}
-
-a {
-    color: #2aa198;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.taglist {
-    border-bottom: 9px solid #e0e0e0;
-    padding-bottom: 1em;
-    margin-bottom: 2.5em;
-    font-size: 0.9em;
-}
-
-.taglist a {
-    background-color: #e0e0e0;
-    color: #333;
-    padding: 0.2em 0.5em;
-    margin-right: 0.5em;
-    border-radius: 3px;
-    text-decoration: none;
-}
-
-.taglist a:hover {
-    background-color: #ccc;
-}
-
-/* Postamble / footer */
-#postamble {
-    max-width: 800px;
-    margin: 2em auto;
-    padding: 1em;
-    border-top: 1px solid #e0e0e0;
-    font-size: 0.8em;
-    color: #666;
-    text-align: center;
-}
-
-#archive a {
-    color: #2aa198;
-    text-decoration: none;
-}
-
-#archive a:hover {
-    text-decoration: underline;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
 }
 
 img {
@@ -97,6 +14,95 @@ img {
     height: auto;
 }
 
+a {
+    color: #fabd2f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fe8019;
+    text-decoration: underline;
+}
+
+.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    background: #3c3836;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    float: left;
+    margin: 0 5px;
+}
+
+.menu-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-delay: 200ms;
+    -moz-transition: all 200ms ease-in;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+.menu-item a:hover {
+    background: #d79921;
+    color: #282828;
+}
+
+.post-title {
+    color: #fabd2f;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+.post-date {
+    font-size: 14px;
+    color: #bdae93;
+    margin-top: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.post-divider {
+    border: 0;
+    height: 1px;
+    background: #d79921;
+    margin: 30px 0;
+    opacity: 0.7;
+}
+
+/* Archive Bottom Link */
+#archive {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#content {
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+#postamble {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #bdae93;
+    opacity: 0.8;
+}
+
+/* Org Table */
 table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -120,8 +126,9 @@ table th {
     color: white;
 }
 
+/* Org block of code */
 .org-src-container {
-    background-color: #2d2d2d;
+    background-color: #3c3836;
     padding: 0 12px;
     border-radius: 5px;
     overflow: auto;
@@ -143,32 +150,8 @@ table th {
     margin-bottom: 5px;
 }
 
-.menu-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu-item {
-    float: left;
-    margin: 0 5px;
-}
-
-.menu-item a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition-delay: 200ms;
-    -moz-transition: all 200ms ease-in;
-    -webkit-transition: all 200ms ease-in;
-    -o-transition: all 200ms ease-in;
-    transition: all 200ms ease-in;
-}
-
-.menu-item a:hover {
-    background-color: #eee8d5;
-    color: #073642;
+@media screen and (max-width: 780px) {
+    body {
+	padding: 0;
+    }
 }

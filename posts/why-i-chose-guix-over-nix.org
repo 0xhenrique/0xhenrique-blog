@@ -7,6 +7,7 @@ I've been using NixOS for quite some time, but somehow I ended up with Guix. In 
 
 ** The Emacs > Elisp > SICP > Scheme pipeline
 https://i.imgur.com/ouSS2fe.png
+
 I honestly don't remember the first time I heard about Emacs, but I remember the first time I tried to use it I got gatekept by the Elisp magecraft.
 After that, I spent some days trying to learn some basic concepts of this ancient text editor. Thanks to https://learnxinyminutes.com/docs/elisp/ I was able to write some simple functions to make my Emacs experience smoother. To be honest, I didn't really liked to write Lisp back then, it sucked a lot for me. Even reading simple functions was a hassle since I wasn't used to see through all the parenthesis.
 At that time, I already knew about the 'Structure and Interpretaion of Computer Programs' book, but didn't read until then. It was only after seeing the MIT class linked below that I got hooked into computer magecraft:

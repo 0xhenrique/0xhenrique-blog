@@ -24,21 +24,53 @@ Link: <a href="https://github.com/0xhenrique/lum">https://github.com/0xhenrique/
 Lum is a project I started as a way to escape the feeling of being tied to the web-browser when it comes to bookmarks.
 The objective is relatively simple, to have access to my bookmarks outside of the browser. This way I could call my bookmarks from anywhere on the computer, whether from Vim, Emacs, the browser itself, the window manager or wherever.
 I'm still not sure if I'm going to turn this project into a CLI tool or a library. I still need to try to integrate Lum with some other tool and evaluate which points I failed, which ones I need to improve and where I got things right.
-I also wanted to have contact with Rust in practice. I have some things to say about the Rust language, but I think that will be for another post on this blog.
 </p>
 
 <p>
-For now, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
-I'm still evaluating whether this would be the most practical and quickest way, considering that I already accumulated more than 12 thousand bookmarks at the height of my NEET time.
-I don't think parsing 12 thousand objects in JSON is efficient, but it's something I still need to test in practice.
+I started using the Rust language, but I realized that I wasn't familiar enough with the language to do this. So I left Rust aside for a while and took advantage of the situation to rewrite Lum using Clojure, since I had been planning to put it into practice for a while.
 </p>
 
+<p>
+This was my first more "serious" project using Clojure, so a lot of things are out of place, a lot of rough edges, a lot of design mistakes, etc.
+For example, I'm using JSON to save the bookmarks, but to be honest I don't know if I'll keep this format until the end.
+I'm still evaluating whether this would be the most practical and quickest way, considering that I already accumulated more than 12 thousand bookmarks at the height of my NEET time.
+I don't think parsing 12 thousand objects in JSON is efficient, but it's something I still need to test in practice.
+But at least it helped me get better grasp of a Lisp language. I still intend to revisit this project sometime in the future, maybe even restructure it from scratch to fix the mistakes I made.
+For now, I don't think it can replace browser bookmarks, but it's something I'll focus on more in my next iteration with Lum.
+</p>
+
+<div id="outline-container-orgd17e46a" class="outline-2">
+<h2 id="orgd17e46a">Running Lum</h2>
+<div class="outline-text-2" id="text-orgd17e46a">
 <p>
 Although it is not really necessary to run this program, having fzf and xclip would be great if you want to integrate with other programs. A pretty useful command to fetch your bookmarks would be:
 </p>
 <div class="org-src-container">
 <pre class="src src-bash">$ lum -l | fzf | xclip -selection clipboard
 </pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org63438a4" class="outline-2">
+<h2 id="org63438a4">Integration with Emacs</h2>
+<div class="outline-text-2" id="text-org63438a4">
+<p>
+While I'm not deploying binary packages to Lum, I can check my bookmarks through Emacs with a very simple function:
+</p>
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(defun pache/my-consult-bookmark ()
+  "Select a bookmark using `completing-read` and copy it to the clipboard."
+  (interactive)
+  (let* ((candidates (split-string (shell-command-to-string "java -jar ~/path/to/lum-1.0.0-SNAPSHOT-standalone.jar -l") "\n" t))
+         (selection (completing-read "Select bookmark: " candidates)))
+    (when selection
+      (kill-new selection)
+      (message "Copied to clipboard: %s" selection))))
+(global-set-key (kbd "C-c b") 'pache/my-consult-bookmark)
+</pre>
+</div>
+</div>
 </div>
 <div class="taglist"><a href="https://0xhenrique.neocities.org/tags.html">Tags</a>: <a href="https://0xhenrique.neocities.org/tag-projects.html">projects</a> <a href="https://0xhenrique.neocities.org/tag-programming.html">programming</a> <a href="https://0xhenrique.neocities.org/tag-clojure.html">clojure</a> <a href="https://0xhenrique.neocities.org/tag-lum.html">lum</a> </div></div>
 <div id="postamble" class="status"><a href="https://0xhenrique.neocities.org/rss.xml">My RSS Feed</a>

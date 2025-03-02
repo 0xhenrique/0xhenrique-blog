@@ -2,4 +2,14 @@
 
 Repository for my personal blog: https://0xhenrique.neocities.org/ 
 
+|-----------+-------------------------------------------------------|
+| Directory | Content                                               |
+|-----------+-------------------------------------------------------|
+| /blog     | The HTML generated from the org files                 |
+| /posts    | The actual org files from which the HTML is generated |
+|-----------+-------------------------------------------------------|
+
+=<M-x> org-static-blog-publish RET= to build everything.
+
+
 Created using GNU Emacs and [[https://github.com/bastibe/org-static-blog][org-static-blog]]. 
