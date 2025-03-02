@@ -11,5 +11,7 @@ Repository for my personal blog: https://0xhenrique.neocities.org/
 
 =<M-x> org-static-blog-publish RET= to build everything.
 
+*** Update website using Neocities CLI
+=neocities push blog/=
 
 Created using GNU Emacs and [[https://github.com/bastibe/org-static-blog][org-static-blog]]. 
