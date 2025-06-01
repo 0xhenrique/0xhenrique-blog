@@ -4,7 +4,129 @@
 <title><![CDATA[0xhenrique]]></title>
 <description><![CDATA[0xhenrique]]></description>
 <link>https://0xhenrique.neocities.org/</link>
-<lastBuildDate>Sun, 02 Mar 2025 10:55:52 +0000</lastBuildDate>
+<lastBuildDate>Sun, 01 Jun 2025 00:57:55 +0100</lastBuildDate>
+<item>
+  <title><![CDATA[Managing Bookmarks the Emacs Way: Why I Built ESB]]></title>
+  <description><![CDATA[
+
+<div id="outline-container-orge069214" class="outline-2">
+<h2 id="orge069214">The Problem with Browser Bookmarks</h2>
+<div class="outline-text-2" id="text-orge069214">
+<p>
+If you are reading this, maybe you spend most of your day inside Emacs. You probably already use it for emails, RSS, file stuff, even browsing web pages. But then, why bookmarks are still stuck inside Firefox or Chrome?
+</p>
+
+<p>
+Bookmarks in browser just feel annoying when everything else is in Emacs. Like, you find a nice link while working in Emacs, but now you need to switch to browser just to save it. Not only that, your bookmarks are locked to some sync system from Google or Mozilla or someone else.
+</p>
+
+<p>
+But for us who like to own our data and keep things inside Emacs, I think there is a better way.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga79dfb6" class="outline-2">
+<h2 id="orga79dfb6">Enter ESB: Emacs Simple Bookmark</h2>
+<div class="outline-text-2" id="text-orga79dfb6">
+<p>
+So I made ESB. It's a small and simple bookmark manager that works inside Emacs. It also encrypts bookmarks, and you can sync them in any way you want.
+</p>
+
+<p>
+Idea is very basic: bookmarks are your data, so they should stay in your system, not in someone else’s cloud. Want to sync with GitHub? Go ahead. Self-hosted GitLab? Sure. Your own server? Even better.
+</p>
+</div>
+
+<div id="outline-container-orga9923c7" class="outline-3">
+<h3 id="orga9923c7">Technical Implementation</h3>
+<div class="outline-text-3" id="text-orga9923c7">
+<p>
+Bookmarks are saved in JSON file. Each one has URL, maybe description, and some tags. The cool part is the storage backend. By default it uses GPG to encrypt before saving:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-elisp">(defcustom esb-storage-backend 'gpg
+  "Storage backend for bookmarks."
+  :type '(choice (const :tag "GPG encrypted" gpg)
+                 (const :tag "Plain text" plain)
+                 (function :tag "Custom backend"))
+  :group 'esb)
+</pre>
+</div>
+
+<p>
+Because of GPG, you can put the bookmark file on public GitHub repo and it's still safe. I do this for my dotfiles. Also, ESB loads bookmarks in memory, so it feels fast. It only writes to file when you change something.
+</p>
+
+<p>
+You can use prefix args to filter by tag. This helps a lot when you have many bookmarks and want to find one doc or article you saved long time ago.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org25a7c6b" class="outline-2">
+<h2 id="org25a7c6b">Why This Approach Makes Sense For Me</h2>
+<div class="outline-text-2" id="text-org25a7c6b">
+<p>
+The nice thing about keeping bookmarks in Emacs is not only workflow. It’s also about owning your stuff and making it flexible. You can grep them, version control them, backup with dotfiles, or write scripts to do whatever you want.
+</p>
+
+<p>
+Also, you're free from browser companies. Change browser? Bookmarks are still there. Change OS? Still there. Want to move to different system later? It's JSON, so export is easy.
+</p>
+
+<p>
+And if you sync with Git, you get history. Deleted bookmarks by mistake? <code>git revert</code>. Want to check what links you saved last year? <code>git log</code> can show.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga17777f" class="outline-2">
+<h2 id="orga17777f">The Limitations</h2>
+<div class="outline-text-2" id="text-orga17777f">
+<p>
+But, let’s be honest. This setup is not for everyone. You need to set up GPG, Git repo, and remember to commit. If you just want bookmarks to work and don’t want to think too much, the browser way is easier.
+</p>
+
+<p>
+Also, ESB is only in Emacs. If you browse a lot outside Emacs, it’s not so nice. You can still look at the file, but not use the Emacs functions.
+</p>
+
+<p>
+GPG can also be tricky, especially when you use many computers with different configs. I try to explain this in the README, but it’s still harder than clicking “sync” in browser, of course.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0131b09" class="outline-2">
+<h2 id="org0131b09">Should You Use It?</h2>
+<div class="outline-text-2" id="text-org0131b09">
+<p>
+If you live inside Emacs and care more about control than convenience, I think ESB is good for you. If you keep dotfiles in Git, run your own stuff, and like tools that play nice together, maybe try it.
+</p>
+
+<p>
+But if you just want bookmarks that sync and you don’t want to worry about how, then browser is better. That’s fine too, not everyone needs the same thing.
+</p>
+
+<p>
+If you’re curious, the code is on GitHub, AGPL license. PRs, issues, or just feedback are all welcome. It works fine for me, but I want to see how others use it too.
+</p>
+
+<p>
+GitHub link: <a href="https://github.com/0xhenrique/esb">https://github.com/0xhenrique/esb</a>
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://0xhenrique.neocities.org/tags.html">Tags</a>: <a href="https://0xhenrique.neocities.org/tag-emacs.html">emacs</a> <a href="https://0xhenrique.neocities.org/tag-esb.html">esb</a> </div>]]></description>
+  <category><![CDATA[emacs]]></category>
+  <category><![CDATA[esb]]></category>
+  <link>https://0xhenrique.neocities.org/why-i-build-esb.html</link>
+  <guid>https://0xhenrique.neocities.org/why-i-build-esb.html</guid>
+  <pubDate>Fri, 30 May 2025 08:57:00 +0100</pubDate>
+</item>
 <item>
   <title><![CDATA[Pluto Review]]></title>
   <description><![CDATA[
