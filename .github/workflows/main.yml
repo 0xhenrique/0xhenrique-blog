@@ -18,20 +18,10 @@ jobs:
     # Step 1: Check out the repository
     - uses: actions/checkout@v4
 
-    # Step 2: Set up Hugo (this downloads and installs Hugo)
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: '0.119.0'
-
-    # Step 3: Build the Hugo site
-    - name: Build the Hugo site
-      run: hugo --minify
-
-    # Step 4: Deploy the 'public' folder to Neocities
+    # Step 2: Deploy the 'blog' folder to Neocities
     - name: Deploy to Neocities
       uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
-        api_token: ${{ secrets.NEOCITIES_SECRET }} # Your Neocities API token stored as a secret
+        api_token: ${{ secrets.NEOCITIES_SECRET }} # neocities API token stored as a secret
         cleanup: false
-        dist_dir: public # The Hugo output folder
+        dist_dir: blog
