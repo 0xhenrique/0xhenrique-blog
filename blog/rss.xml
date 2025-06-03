@@ -120,7 +120,7 @@ GitHub link: <a href="https://github.com/0xhenrique/esb">https://github.com/0xhe
 </p>
 </div>
 </div>
-<div class="taglist"><a href="https://blog.0xhenrique.org/tags.html">Tags</a>: <a href="https://blog.0xhenrique.org/tag-emacs.html">emacs</a> <a href="https://blog.0xhenrique.org/tag-esb.html">esb</a> <a href="https://blog.0xhenrique.org/tag-projects.html">projects</a> </div>]]></description>
+<div class="taglist"><a href="https://blog.0xhenrique.org/tags.html">Tags</a>: <a href="https://blog.0xhenrique.org/tag-emacs.html">emacs</a> <a href="https://blog.0xhenrique.org/tag-esb.html">esb</a> <a href="https://blog.0xhenrique.org/tag-projects.html.html">projects</a> </div>]]></description>
   <category><![CDATA[emacs]]></category>
   <category><![CDATA[esb]]></category>
   <category><![CDATA[projects]]></category>
@@ -491,7 +491,7 @@ Then you can create a pull request right here on Github. Just go to the Pull Req
 </figure>
 </div>
 </div>
-<div class="taglist"><a href="https://blog.0xhenrique.org/tags.html">Tags</a>: <a href="https://blog.0xhenrique.org/tag-projects.html">projects</a> <a href="https://blog.0xhenrique.org/tag-python.html">python</a> </div>]]></description>
+<div class="taglist"><a href="https://blog.0xhenrique.org/tags.html">Tags</a>: <a href="https://blog.0xhenrique.org/tag-projects.html.html">projects</a> <a href="https://blog.0xhenrique.org/tag-python.html">python</a> </div>]]></description>
   <category><![CDATA[projects]]></category>
   <category><![CDATA[python]]></category>
   <link>https://blog.0xhenrique.org/monogatari.html</link>
@@ -557,7 +557,7 @@ While I'm not deploying binary packages to Lum, I can check my bookmarks through
 </div>
 </div>
 </div>
-<div class="taglist"><a href="https://blog.0xhenrique.org/tags.html">Tags</a>: <a href="https://blog.0xhenrique.org/tag-projects.html">projects</a> <a href="https://blog.0xhenrique.org/tag-programming.html">programming</a> <a href="https://blog.0xhenrique.org/tag-clojure.html">clojure</a> <a href="https://blog.0xhenrique.org/tag-lum.html">lum</a> </div>]]></description>
+<div class="taglist"><a href="https://blog.0xhenrique.org/tags.html">Tags</a>: <a href="https://blog.0xhenrique.org/tag-projects.html.html">projects</a> <a href="https://blog.0xhenrique.org/tag-programming.html">programming</a> <a href="https://blog.0xhenrique.org/tag-clojure.html">clojure</a> <a href="https://blog.0xhenrique.org/tag-lum.html">lum</a> </div>]]></description>
   <category><![CDATA[projects]]></category>
   <category><![CDATA[programming]]></category>
   <category><![CDATA[clojure]]></category>
@@ -715,8 +715,8 @@ It was very nice to type on a <span class="underline">low profile</span> keyboar
   <category><![CDATA[computers]]></category>
   <category><![CDATA[emacs]]></category>
   <category><![CDATA[blog]]></category>
-  <link>https://blog.0xhenrique.org/about.html</link>
-  <guid>https://blog.0xhenrique.org/about.html</guid>
+  <link>https://blog.0xhenrique.org/about.html.html</link>
+  <guid>https://blog.0xhenrique.org/about.html.html</guid>
   <pubDate>Sat, 17 Aug 2024 08:57:00 +0100</pubDate>
 </item>
 <item>
