@@ -1,6 +1,6 @@
 * 0xhenrique Blog
 
-Repository for my personal blog: https://0xhenrique.neocities.org/ 
+Repository for my personal blog: https://blog.0xhenrique.org/ 
 
 |-----------+-------------------------------------------------------|
 | Directory | Content                                               |
