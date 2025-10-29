@@ -3,7 +3,7 @@
 #+filetags: guix wallpaper ricing
 #+ATTR_HTML: :border 2 :rules all :frame border
 
-I've been using Guix for quite some time now. It's been a great experience so far!
+I've been using Guix for quite some time now. It's been a great experience so far.
 Here are some wallpapers I've been collecting for my Guix desktop.
 
 
