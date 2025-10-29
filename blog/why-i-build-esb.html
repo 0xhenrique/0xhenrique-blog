@@ -6,20 +6,19 @@
       type="application/rss+xml"
       href="https://blog.0xhenrique.org/rss.xml"
       title="RSS feed for https://blog.0xhenrique.org/">
-<title>Managing Bookmarks the Emacs Way: Why I Built ESB</title>
+<title>Managing Bookmarks in Emacs: Why I Built ESB</title>
 <meta name="author" content="Henrique Marques">
 <meta name="referrer" content="no-referrer">
 <meta name="viewport" content="initial-scale=1,width=device-width,minimum-scale=1">
 <link href= "static/style.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="static/favicon.ico"></head>
 <body>
-<div id="preamble" class="status"><ul class="menu-list"><li class="menu-item"><a href="https://blog.0xhenrique.org/">λ 0xhenrique</a></li><li class="menu-item"><a href="https://blog.0xhenrique.org/tag-projects.html">Projects</a></li><li class="menu-item"><a href="https://blog.0xhenrique.org/archive.html">Archive</a></li><li class="menu-item"><a href="https://blog.0xhenrique.org/rss.xml">RSS</a></li><li class="menu-item" style="float:right"><a href="https://blog.0xhenrique.org/about.html">About</a></li></ul></div>
+<div id="preamble" class="status"><ul class="menu-list"><li class="menu-item"><a href="https://blog.0xhenrique.org/">λ 0xhenrique</a></li><li class="menu-item"><a href="https://blog.0xhenrique.org/tag-projects">Projects</a></li><li class="menu-item"><a href="https://blog.0xhenrique.org/archive">Archive</a></li><li class="menu-item"><a href="https://blog.0xhenrique.org/rss.xml">RSS</a></li><li class="menu-item" style="float:right"><a href="https://blog.0xhenrique.org/about">About</a></li></ul></div>
 <div id="content">
-<div class="post-date">30 May 2025</div><h1 class="post-title"><a href="https://blog.0xhenrique.org/why-i-build-esb.html">Managing Bookmarks the Emacs Way: Why I Built ESB</a></h1>
-
-<div id="outline-container-org5f497c6" class="outline-2">
-<h2 id="org5f497c6">The Problem with Browser Bookmarks</h2>
-<div class="outline-text-2" id="text-org5f497c6">
+<div class="post-date">30 May 2025</div><h1 class="post-title"><a href="https://blog.0xhenrique.org/why-i-build-esb.html">Managing Bookmarks in Emacs: Why I Built ESB</a></h1>
+<div id="outline-container-orgfc0030e" class="outline-2">
+<h2 id="orgfc0030e">The Problem with Browser Bookmarks</h2>
+<div class="outline-text-2" id="text-orgfc0030e">
 <p>
 If you are reading this, maybe you spend most of your day inside Emacs. You probably already use it for emails, RSS, file stuff, even browsing web pages. But then, why bookmarks are still stuck inside Firefox or Chrome?
 </p>
@@ -33,10 +32,9 @@ But for us who like to own our data and keep things inside Emacs, I think there 
 </p>
 </div>
 </div>
-
-<div id="outline-container-orge4f1fd5" class="outline-2">
-<h2 id="orge4f1fd5">Enter ESB: Emacs Simple Bookmark</h2>
-<div class="outline-text-2" id="text-orge4f1fd5">
+<div id="outline-container-orgbe1618f" class="outline-2">
+<h2 id="orgbe1618f">Enter ESB: Emacs Simple Bookmark</h2>
+<div class="outline-text-2" id="text-orgbe1618f">
 <p>
 So I made ESB. It's a small and simple bookmark manager that works inside Emacs. It also encrypts bookmarks, and you can sync them in any way you want.
 </p>
@@ -45,10 +43,9 @@ So I made ESB. It's a small and simple bookmark manager that works inside Emacs.
 Idea is very basic: bookmarks are your data, so they should stay in your system, not in someone else’s cloud. Want to sync with GitHub? Go ahead. Self-hosted GitLab? Sure. Your own server? Even better.
 </p>
 </div>
-
-<div id="outline-container-org7ee15d7" class="outline-3">
-<h3 id="org7ee15d7">Technical Implementation</h3>
-<div class="outline-text-3" id="text-org7ee15d7">
+<div id="outline-container-org1659b2a" class="outline-3">
+<h3 id="org1659b2a">Technical Implementation</h3>
+<div class="outline-text-3" id="text-org1659b2a">
 <p>
 Bookmarks are saved in JSON file. Each one has URL, maybe description, and some tags. The cool part is the storage backend. By default it uses GPG to encrypt before saving:
 </p>
@@ -73,10 +70,9 @@ You can use prefix args to filter by tag. This helps a lot when you have many bo
 </div>
 </div>
 </div>
-
-<div id="outline-container-orgb4f54eb" class="outline-2">
-<h2 id="orgb4f54eb">Why This Approach Makes Sense For Me</h2>
-<div class="outline-text-2" id="text-orgb4f54eb">
+<div id="outline-container-orga14eb6a" class="outline-2">
+<h2 id="orga14eb6a">Why This Approach Makes Sense For Me</h2>
+<div class="outline-text-2" id="text-orga14eb6a">
 <p>
 The nice thing about keeping bookmarks in Emacs is not only workflow. It’s also about owning your stuff and making it flexible. You can grep them, version control them, backup with dotfiles, or write scripts to do whatever you want.
 </p>
@@ -90,10 +86,9 @@ And if you sync with Git, you get history. Deleted bookmarks by mistake? <code>g
 </p>
 </div>
 </div>
-
-<div id="outline-container-org0baf349" class="outline-2">
-<h2 id="org0baf349">The Limitations</h2>
-<div class="outline-text-2" id="text-org0baf349">
+<div id="outline-container-org41637ab" class="outline-2">
+<h2 id="org41637ab">The Limitations</h2>
+<div class="outline-text-2" id="text-org41637ab">
 <p>
 But, let’s be honest. This setup is not for everyone. You need to set up GPG, Git repo, and remember to commit. If you just want bookmarks to work and don’t want to think too much, the browser way is easier.
 </p>
@@ -107,10 +102,9 @@ GPG can also be tricky, especially when you use many computers with different co
 </p>
 </div>
 </div>
-
-<div id="outline-container-org091ca6e" class="outline-2">
-<h2 id="org091ca6e">Should You Use It?</h2>
-<div class="outline-text-2" id="text-org091ca6e">
+<div id="outline-container-org354955b" class="outline-2">
+<h2 id="org354955b">Should You Use It?</h2>
+<div class="outline-text-2" id="text-org354955b">
 <p>
 If you live inside Emacs and care more about control than convenience, I think ESB is good for you. If you keep dotfiles in Git, run your own stuff, and like tools that play nice together, maybe try it.
 </p>

@@ -1,4 +1,4 @@
-#+title: Managing Bookmarks the Emacs Way: Why I Built ESB
+#+title: Managing Bookmarks in Emacs: Why I Built ESB
 #+date: <2025-05-30 08:57>
 #+filetags: emacs esb projects
 #+ATTR_HTML: :border 2 :rules all :frame border
